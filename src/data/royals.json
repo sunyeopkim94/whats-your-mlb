@@ -1,0 +1,34 @@
+{
+    "id":"royals",
+    "name": "Kansas City Royals",
+    "since": 1969,
+    "hometown": [
+        {"city": "Kansas City"}
+    ],
+    "field": "Kauffman Stadium",
+    "world series": [
+        {"year": 1985},
+        {"year": 2015}
+    ],
+    "logo": "royals.svg",
+    "keyword": "로열 블루",
+    "history": "1970년대 후반~1980년대 초중반까지는 뉴욕 양키스와 라이벌 구도를 이룰 정도로 잘 나가던 구단이었고 1985년에는 우승도 해봤지만, 이후 28년 연속 포스트 시즌 진출 실패라는 처참한 성적, 스타 선수의 부재, 스몰마켓 팀으로 미디어 노출이 적은 점 등으로 국내에서는 팬이 거의 없는 비인기 구단이었다.",
+    "permanent number": [
+        {
+            "no": 5,
+            "name": "George Brett"
+        },
+        {
+            "no": 10,
+            "name": "Dick Howser"
+        },
+        {
+            "no": 20,
+            "name": "Frank White"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        }
+    ]
+}

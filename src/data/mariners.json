@@ -1,0 +1,27 @@
+{
+    "id":"mariners",
+    "name": "Seattle Mariners",
+    "since": 1977,
+    "hometown": [
+        {"city": "Seattle"}
+    ],
+    "field": "T-Mobile Park",
+    "world series": [],
+    "logo": "mariners.svg",
+    "keyword": "뱃사람들",
+    "history": "창단 초창기엔 약체였으나 1995년 지구 우승을 시작으로 전성기를 맞으며 2001년에는 메이저리그 역대 한 시즌 최다승 타이 기록(116승)을 세우기도 했다. 이후 다시 암흑기를 맞아 무려 20년 연속으로 포스트시즌에 나가지 못했었는데 2022년 드디어 포스트시즌에 나가며 비밀번호를 끊어냈다. 하지만 2023년 현재 기준으로 메이저리그에서 유일하게 월드 시리즈를 나가보지 못한 구단이기도 하다.",
+    "permanent number": [
+        {
+            "no": 11,
+            "name": "Edgar Martínez"
+        },
+        {
+            "no": 24,
+            "name": "Ken Griffey Jr."
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        }
+    ]
+}

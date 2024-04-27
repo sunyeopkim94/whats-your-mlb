@@ -1,0 +1,58 @@
+{
+    "id":"mets",
+    "name": "New York Mets",
+    "since": 1962,
+    "hometown": [
+        {"city": "New York"}
+    ],
+    "field": "Citi Field",
+    "world series": [
+        {"year": 1969},
+        {"year": 1986}
+    ],
+    "logo": "mets.svg",
+    "keyword": "메트로폴리탄들",
+    "history": "팀 전체 역사는 그리 길지도 않고 강팀이었던 적도 드물었으나, '어메이징 메츠'라는 별명이 붙었을 만큼 포스트시즌에 강했었던 팀이었다. 하지만 그 별명이 요즘 보여주고 있는 엉망의 경기력에도 이중적인 의미로 사용되는 중이다.",
+    "permanent number": [
+        {
+            "no": 14,
+            "name": "Gil Hodges"
+        },
+        {
+            "no": 16,
+            "name": "Dwight Gooden"
+        },
+        {
+            "no": 17,
+            "name": "Keith Hernandez"
+        },
+        {
+            "no": 18,
+            "name": "Darryl Strawberry"
+        },
+        {
+            "no": 24,
+            "name": "Willie Mays"
+        },
+        {
+            "no": 31,
+            "name": "Mike Piazza"
+        },
+        {
+            "no": 36,
+            "name": "Jerry Koosman"
+        },
+        {
+            "no": 37,
+            "name": "Casey Stengel"
+        },
+        {
+            "no": 41,
+            "name": "Tom Seaver"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        }
+    ]
+}

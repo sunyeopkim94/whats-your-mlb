@@ -1,0 +1,50 @@
+{
+    "id":"phillies",
+    "name": "Philadelphia Phillies",
+    "since": 1883,
+    "hometown": [
+        {"city": "Philadelphia"}
+    ],
+    "field": "Citizens Bank Park",
+    "world series": [
+        {"year": 1980},
+        {"year": 2008}
+    ],
+    "logo": "phillies.svg",
+    "keyword": "필라델피아인들",
+    "history": "긴 역사와 전통을 자랑하는 필라델피아 필리스는 현재는 아니지만 한때 메이저 리그를 대표하는 약팀 중 하나였으며 전 세계 프로 스포츠 역사상 최초의 10,000패를 달성했기 때문에 국내 팬들에게 만패라는 멸칭으로 불린다. 단지 구단 역사가 오래되어서 얻게 된 기록이 아닌 것이, 다른 후발 만패팀들의 경우 통산 승률 5할이 넘는 반면필리스는 혼자서 -1000이 넘는 놀라운 승패 마진을 자랑한다. 2022년 8월 16일에는 드디어 염원하던 10,000승을 기록하였다.",
+    "permanent number": [
+        {
+            "no": 1,
+            "name": "Richie Ashburn"
+        },
+        {
+            "no": 14,
+            "name": "Jim Bunning"
+        },
+        {
+            "no": 15,
+            "name": "Dick Allen"
+        },
+        {
+            "no": 20,
+            "name": "Mike Schmidt"
+        },
+        {
+            "no": 32,
+            "name": "Steve Carlton"
+        },
+        {
+            "no": 34,
+            "name": "Roy Halladay"
+        },
+        {
+            "no": 36,
+            "name": "Robin Roberts"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        }
+    ]
+}

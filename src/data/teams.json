@@ -1,0 +1,493 @@
+{
+    "National League": [
+        {
+            "id": "braves",
+            "name": "Atlanta Braves",
+            "since": 1871,
+            "hometown": [
+                {"city": "Boston"},
+                {"city": "Milwaukee"},
+                {"city": "Atlanta"}
+            ],
+            "field": "Truist Park",
+            "world series": [
+                {"year": 1914},
+                {"year": 1957},
+                {"year": 1995},
+                {"year": 2021}
+            ],
+            "logo": "braves.svg"
+        },
+        {
+            "id": "marlins",
+            "name": "Miami Marlins",
+            "since": 1993,
+            "hometown": [
+                {"city": "Miami"}
+            ],
+            "field": "loanDepot Park",
+            "world series": [
+                {"year": 1997},
+                {"year": 2003}
+            ],
+            "logo": "marlins.svg"
+        },
+        {
+            "id": "mets",
+            "name": "New York Mets",
+            "since": 1962,
+            "hometown": [
+                {"city": "New York"}
+            ],
+            "field": "Citi Field",
+            "world series": [
+                {"year": 1969},
+                {"year": 1986}
+            ],
+            "logo": "mets.svg"
+        },
+        {
+            "id": "phillies",
+            "name": "Philadelphia Phillies",
+            "since": 1883,
+            "hometown": [
+                {"city": "Philadelphia"}
+            ],
+            "field": "Citizens Bank Park",
+            "world series": [
+                {"year": 1980},
+                {"year": 2008}
+            ],
+            "logo": "phillies.svg"
+        },
+        {
+            "id": "nationals",
+            "name": "Washington Nationals",
+            "since": 1969,
+            "hometown": [
+                {"city": "Montreal"},
+                {"city": "Washington D.C."}
+            ],
+            "field": "Nationals Park",
+            "world series": [
+                {"year": 2019}
+            ],
+            "logo": "nationals.svg"
+        },
+        {
+            "id": "cubs",
+            "name": "Chicago Cubs",
+            "since": 1870,
+            "hometown": [
+                {"city": "Chicago"}
+            ],
+            "field": "Wrigley Field",
+            "world series": [
+                {"year": 1907},
+                {"year": 1908},
+                {"year": 2016}
+            ],
+            "logo": "cubs.svg"
+        },
+        {
+            "id": "reds",
+            "name": "Cincinnati Reds",
+            "since": 1882,
+            "hometown": [
+                {"city": "Cincinnati"}
+            ],
+            "field": "Great American Ball Park",
+            "world series": [
+                {"year": 1919},
+                {"year": 1940},
+                {"year": 1975},
+                {"year": 1976},
+                {"year": 1990}
+            ],
+            "logo": "reds.svg"
+        },
+        {
+            "id": "brewers",
+            "name": "Milwaukee Brewers",
+            "since": 1969,
+            "hometown": [
+                {"city": "Seattle"},
+                {"city": "Milwaukee"}
+            ],
+            "field": "American Family Field",
+            "world series": [],
+            "logo": "brewers.svg"
+        },
+        {
+            "id": "pirates",
+            "name": "Pittsburgh Pirates",
+            "since": 1882,
+            "hometown": [
+                {"city": "Pittsburgh"}
+            ],
+            "field": "PNC Park",
+            "world series": [
+                {"year": 1909},
+                {"year": 1925},
+                {"year": 1960},
+                {"year": 1971},
+                {"year": 1979}
+            ],
+            "logo": "pirates.svg"
+        },
+        {
+            "id": "cardinals",
+            "name": "St. Louis Cardinals",
+            "since": 1882,
+            "hometown": [
+                {"city": "St. Louis"}
+            ],
+            "field": "Busch Stadium",
+            "world series": [
+                {"year": 1926},
+                {"year": 1931},
+                {"year": 1934},
+                {"year": 1942},
+                {"year": 1944},
+                {"year": 1946},
+                {"year": 1964},
+                {"year": 1967},
+                {"year": 1982},
+                {"year": 2006},
+                {"year": 2011}
+            ],
+            "logo": "cardinals.svg"
+        },
+        {
+            "id": "dbacks",
+            "name": "Arizona Diamondbacks",
+            "since": 1998,
+            "hometown": [
+                {"city": "Phoenix"}
+            ],
+            "field": "Chase Field",
+            "world series": [
+                {"year": 2001}
+            ],
+            "logo": "dbacks.svg"
+        },
+        {
+            "id": "rockies",
+            "name": "Colorado Rockies",
+            "since": 1993,
+            "hometown": [
+                {"city": "Denver"}
+            ],
+            "field": "Coors Field",
+            "world series": [],
+            "logo": "rockies.svg"
+        },
+        {
+            "id": "dodgers",
+            "name": "Los Angeles Dodgers",
+            "since": 1884,
+            "hometown": [
+                {"city": "Brooklyn"},
+                {"city": "Los Angeles"}
+            ],
+            "field": "Dodger Stadium",
+            "world series": [
+                {"year": 1955},
+                {"year": 1959},
+                {"year": 1963},
+                {"year": 1965},
+                {"year": 1981},
+                {"year": 1988},
+                {"year": 2020}
+            ],
+            "logo": "dodgers.svg"
+        },
+        {
+            "id": "padres",
+            "name": "San Diego Padres",
+            "since": 1969,
+            "hometown": [
+                {"city": "San Diego"}
+            ],
+            "field": "Petco Park",
+            "world series": [],
+            "logo": "padres.svg"
+        },
+        {
+            "id": "giants",
+            "name": "San Francisco Giants",
+            "since": 1883,
+            "hometown": [
+                {"city": "Manhattan"},
+                {"city": "San Francisco"}
+            ],
+            "field": "Oracle Park",
+            "world series": [
+                {"year": 1905},
+                {"year": 1921},
+                {"year": 1922},
+                {"year": 1933},
+                {"year": 1954},
+                {"year": 2010},
+                {"year": 2012},
+                {"year": 2014}
+            ],
+            "logo": "giants.svg"
+        }
+    ],
+    "American League": [
+        {
+            "id": "orioles",
+            "name": "Baltimore Orioles",
+            "since": 1894,
+            "hometown": [
+                {"city": "Milwaukee"},
+                {"city": "St. Louis"},
+                {"city": "Baltimore"}
+            ],
+            "field": "Oriole Park at Camden Yards",
+            "world series": [
+                {"year": 1966},
+                {"year": 1970},
+                {"year": 1983}
+            ],
+            "logo": "orioles.svg"
+        },
+        {
+            "id": "redsox",
+            "name": "Boston Red Sox",
+            "since": 1901,
+            "hometown": [
+                {"city": "Boston"}
+            ],
+            "field": "Fenway Park",
+            "world series": [
+                {"year": 1903},
+                {"year": 1912},
+                {"year": 1915},
+                {"year": 1916},
+                {"year": 1918},
+                {"year": 2004},
+                {"year": 2007},
+                {"year": 2013},
+                {"year": 2018}
+            ],
+            "logo": "redsox.svg"
+        },
+        {
+            "id": "yankees",
+            "name": "New York Yankees",
+            "since": 1903,
+            "hometown": [
+                {"city": "New York"}
+            ],
+            "field": "Yankee Stadium",
+            "world series": [
+                {"year": 1923},
+                {"year": 1927},
+                {"year": 1928},
+                {"year": 1932},
+                {"year": 1936},
+                {"year": 1937},
+                {"year": 1938},
+                {"year": 1939},
+                {"year": 1941},
+                {"year": 1943},
+                {"year": 1947},
+                {"year": 1949},
+                {"year": 1950},
+                {"year": 1951},
+                {"year": 1952},
+                {"year": 1953},
+                {"year": 1956},
+                {"year": 1958},
+                {"year": 1961},
+                {"year": 1962},
+                {"year": 1977},
+                {"year": 1978},
+                {"year": 1996},
+                {"year": 1998},
+                {"year": 1999},
+                {"year": 2000},
+                {"year": 2009}
+            ],
+            "logo": "yankees.svg"
+        },
+        {
+            "id": "rays",
+            "name": "Tampa Bay Rays",
+            "since": 1998,
+            "hometown": [
+                {"city": "St. Petersburg"}
+            ],
+            "field": "Tropicana Field",
+            "world series": [],
+            "logo": "rays.svg"
+        },
+        {
+            "id": "bluejays",
+            "name": "Toronto Blue Jays",
+            "since": 1977,
+            "hometown": [
+                {"city": "Toronto"}
+            ],
+            "field": "Rogers Centre",
+            "world series": [
+                {"year": 1992},
+                {"year": 1993}
+            ],
+            "logo": "bluejays.svg"
+        },
+        {
+            "id": "whitesox",
+            "name": "Chicago White Sox",
+            "since": 1901,
+            "hometown": [
+                {"city": "Chicago"}
+            ],
+            "field": "Guaranteed Rate Field",
+            "world series": [
+                {"year": 1906},
+                {"year": 1917},
+                {"year": 2005}
+            ],
+            "logo": "whitesox.svg"
+        },
+        {
+            "id": "guardians",
+            "name": "Cleveland Guardians",
+            "since": 1894,
+            "hometown": [
+                {"city": "Grand Rapids"},
+                {"city": "Cleveland"}
+            ],
+            "field": "Progressive Field",
+            "world series": [
+                {"year": 1920},
+                {"year": 1948}
+            ],
+            "logo": "guardians.svg"
+        },
+        {
+            "id": "tigers",
+            "name": "Detroit Tigers",
+            "since": 1894,
+            "hometown": [
+                {"city": "Detroit"}
+            ],
+            "field": "Comerica Park",
+            "world series": [
+                {"year": 1935},
+                {"year": 1945},
+                {"year": 1968},
+                {"year": 1984}
+            ],
+            "logo": "tigers.svg"
+        },
+        {
+            "id": "royals",
+            "name": "Kansas City Royals",
+            "since": 1969,
+            "hometown": [
+                {"city": "Kansas City"}
+            ],
+            "field": "Kauffman Stadium",
+            "world series": [
+                {"year": 1985},
+                {"year": 2015}
+            ],
+            "logo": "royals.svg"
+        },
+        {
+            "id": "twins",
+            "name": "Minnesota Twins",
+            "since": 1901,
+            "hometown": [
+                {"city": "Minneapolis"}
+            ],
+            "field": "Target Field",
+            "world series": [
+                {"year": 1924},
+                {"year": 1987},
+                {"year": 1991}
+            ],
+            "logo": "twins.svg"
+        },
+        {
+            "id": "astros",
+            "name": "Houston Astros",
+            "since": 1962,
+            "hometown": [
+                {"city": "Houston"}
+            ],
+            "field": "Minute Maid Park",
+            "world series": [
+                {"year": 2017},
+                {"year": 2022}
+            ],
+            "logo": "astros.svg"
+        },
+        {
+            "id": "angels",
+            "name": "Los Angeles Angels",
+            "since": 1961,
+            "hometown": [
+                {"city": "Anaheim"}
+            ],
+            "field": "Angel Stadium of Anaheim",
+            "world series": [
+                {"year": 2002}
+            ],
+            "logo": "angels.svg"
+        },
+        {
+            "id": "athletics",
+            "name": "Oakland Athletics",
+            "since": 1901,
+            "hometown": [
+                {"city": "Philadelphia"},
+                {"city": "Kansas City"},
+                {"city": "Oakland"},
+                {"city": "Sacramento"},
+                {"city": "Las Vegas"}
+            ],
+            "field": "RingCentral Coliseum",
+            "world series": [
+                {"year": 1910},
+                {"year": 1911},
+                {"year": 1913},
+                {"year": 1929},
+                {"year": 1930},
+                {"year": 1972},
+                {"year": 1973},
+                {"year": 1974},
+                {"year": 1989}
+            ],
+            "logo": "athletics.svg"
+        },
+        {
+            "id": "mariners",
+            "name": "Seattle Mariners",
+            "since": 1977,
+            "hometown": [
+                {"city": "Seattle"}
+            ],
+            "field": "T-Mobile Park",
+            "world series": [],
+            "logo": "mariners.svg"
+        },
+        {
+            "id": "rangers",
+            "name": "Texas Rangers",
+            "since": 1961,
+            "hometown": [
+                {"city": "Arlington"}
+            ],
+            "field": "Globe Life Field",
+            "world series": [
+                {"year": 2023}
+            ],
+            "logo": "rangers.svg"
+        }
+    ]
+}
