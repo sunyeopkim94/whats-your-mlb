@@ -1,0 +1,27 @@
+{
+    "id":"rockies",
+    "name": "Colorado Rockies",
+    "since": 1993,
+    "hometown": [
+        {"city": "Denver"}
+    ],
+    "field": "Coors Field",
+    "worldseries": [],
+    "logo": "rockies.svg",
+    "keyword": "로키산맥",
+    "history": "홈 구장 쿠어스 필드는 메이저 리그 최고의 타자 친화 구장이며, 이를 바탕으로 화끈한 공격이 팀 컬러이다. 반면 매년 부족한 투수력과 타자들의 원정 타격이 팀의 발목을 끊임없이 잡고 있다. 월드 시리즈 준우승 1회로 성적이 좋지 않다 보니 국내에서는 '꼴로라도'라는 멸칭이 생겼으며, 일반적인 별명은 산동네, 산기꾼이다.",
+    "permanentNumber": [
+        {
+            "no": 17,
+            "name": "Todd Helton"
+        },
+        {
+            "no": 33,
+            "name": "Larry Walker"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        }
+    ]
+}

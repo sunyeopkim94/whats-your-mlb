@@ -1,0 +1,65 @@
+{
+    "id":"reds",
+    "name": "Cincinnati Reds",
+    "since": 1882,
+    "hometown": [
+        {"city": "Cincinnati"}
+    ],
+    "field": "Great American Ball Park",
+    "worldseries": [
+        {"year": 1919},
+        {"year": 1940},
+        {"year": 1975},
+        {"year": 1976},
+        {"year": 1990}
+    ],
+    "logo": "reds.svg",
+    "keyword": "붉은스타킹들",
+    "history": "구단주의 재산이 메이저리그 30개 구단주들 중 꼴찌이고 광역권의 인구도 두 번째로 적은 스몰마켓이다. 그러나 5번의 월드시리즈 우승을 비롯해 빅 레드 머신으로 대표되는 1970년대의 전성기가 있어, 스몰마켓치고는 강팀의 이미지를 가졌던 구단이기도 했다.",
+    "permanentNumber": [
+        {
+            "no": 1,
+            "name": "Fred Hutchinson"
+        },
+        {
+            "no": 5,
+            "name": "Johnny Bench"
+        },
+        {
+            "no": 8,
+            "name": "Joe Morgan"
+        },
+        {
+            "no": 10,
+            "name": "Sparky Anderson"
+        },
+        {
+            "no": 11,
+            "name": "Barry Larkin"
+        },
+        {
+            "no": 13,
+            "name": "Dave Concepción"
+        },
+        {
+            "no": 14,
+            "name": "Pete Rose*"
+        },
+        {
+            "no": 18,
+            "name": "Ted Kluszewski"
+        },
+        {
+            "no": 20,
+            "name": "Frank Robinson"
+        },
+        {
+            "no": 24,
+            "name": "Tony Pérez"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        }
+    ]
+}

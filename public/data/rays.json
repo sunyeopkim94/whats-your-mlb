@@ -1,0 +1,27 @@
+{
+    "id":"rays",
+    "name": "Tampa Bay Rays",
+    "since": 1998,
+    "hometown": [
+        {"city": "St. Petersburg"}
+    ],
+    "field": "Tropicana Field",
+    "worldseries": [],
+    "logo": "rays.svg",
+    "keyword": "쥐가오리",
+    "history": "창단 후 신생팀들이 으레 그러하듯 10년간 부침을 겪었으나 앤드류 프리드먼이 단장으로 부임하고 2008년에 팀명을 바꾼 이후 메이저 리그에서 손꼽히는 스몰마켓임에도 불구하고 꾸준히 상위권을 유지하고 유망주 랭킹도 항상 상위권에 오르면서, 빌리 빈 단장의 오클랜드 애슬레틱스와 함께 모범적인 스몰마켓 운영을 보여주고 있다.",
+    "permanentNumber": [
+        {
+            "no": 12,
+            "name": "Wade Boggs"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        },
+        {
+            "no": 66,
+            "name": "Don Zimmer"
+        }
+    ]
+}

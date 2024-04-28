@@ -1,0 +1,49 @@
+{
+    "id":"orioles",
+    "name": "Baltimore Orioles",
+    "since": 1894,
+    "hometown": [
+        {"city": "Milwaukee"},
+        {"city": "St. Louis"},
+        {"city": "Baltimore"}
+    ],
+    "field": "Oriole Park at Camden Yards",
+    "worldseries": [
+        {"year": 1966},
+        {"year": 1970},
+        {"year": 1983}
+    ],
+    "logo": "orioles.svg",
+    "keyword": "꾀꼬리",
+    "history": "팀의 역사를 보면, 최전성기도 잠깐씩 있었지만 전체적으로 보면 약팀이었다. 10년 이상 연속으로 루징 시즌을 기록한 적이 네 번이나 있었고 MLB 초창기에는 41년간 정규시즌 무관이라는 불명예 기록도 가지고 있다. 메이저 리그가 한국에 알려지기 시작한 1990년대 즈음에는 강자들이 서식하는 아메리칸 동부에서 나름 호성적을 거두기도 하였으나, 2010년대 중반 이후에는 리빌딩 체제의 약팀이였다.",
+    "permanentNumber": [
+        {
+            "no": 4,
+            "name": "Earl Weaver"
+        },
+        {
+            "no": 5,
+            "name": "Brooks Robinson"
+        },
+        {
+            "no": 8,
+            "name": "Cal Ripken Jr."
+        },
+        {
+            "no": 20,
+            "name": "Frank Robinson"
+        },
+        {
+            "no": 22,
+            "name": "Jim Palmer"
+        },
+        {
+            "no": 33,
+            "name": "Eddie Murray"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        }
+    ]
+}

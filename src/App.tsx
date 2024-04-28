@@ -1,5 +1,6 @@
-import { createGlobalStyle } from "styled-components";
+import { ThemeProvider, createGlobalStyle } from "styled-components";
 import Router from "./router";
+import { theme } from "./theme";
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
@@ -35,6 +36,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     line-height: 1;
     font-family: "Poor Story", system-ui;
+    background-color:${(props) => props.theme.bgColor};
+    color:${(props) => props.theme.textColor};
   }
   menu, ol, ul {
     list-style: none;
@@ -51,13 +54,19 @@ const GlobalStyle = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 `
 
 function App() {
   return (
     <>
-      <GlobalStyle />
-      <Router />
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <Router />
+      </ThemeProvider>
     </>
   );
 }

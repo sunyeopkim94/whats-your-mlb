@@ -1,0 +1,139 @@
+{
+    "id":"yankees",
+    "name": "New York Yankees",
+    "since": 1903,
+    "hometown": [
+        {"city": "New York"}
+    ],
+    "field": "Yankee Stadium",
+    "worldseries": [
+        {"year": 1923},
+        {"year": 1927},
+        {"year": 1928},
+        {"year": 1932},
+        {"year": 1936},
+        {"year": 1937},
+        {"year": 1938},
+        {"year": 1939},
+        {"year": 1941},
+        {"year": 1943},
+        {"year": 1947},
+        {"year": 1949},
+        {"year": 1950},
+        {"year": 1951},
+        {"year": 1952},
+        {"year": 1953},
+        {"year": 1956},
+        {"year": 1958},
+        {"year": 1961},
+        {"year": 1962},
+        {"year": 1977},
+        {"year": 1978},
+        {"year": 1996},
+        {"year": 1998},
+        {"year": 1999},
+        {"year": 2000},
+        {"year": 2009}
+    ],
+    "logo": "yankees.svg",
+    "keyword": "악의 제국",
+    "history": "팀명인 양키스는 뉴욕에 네덜란드계 이민자가 많은 데서 유래되었다. 월드 시리즈 우승 27회, 아메리칸 리그 우승 40회, 아메리칸 리그 동부지구 우승 20회, MVP 22회 등의 최다 기록 보유팀으로, 우승 횟수 27회는 2위(세인트루이스 카디널스의 11회)와 격차가 상당한 최다 기록이고 미국 4대 스포츠를 통틀어도 최다 기록이다. 성적에 걸맞게 그 인기도 세계구급이며, 악의 제국(The Evil Empire)이라는 별명을 가지고 있을 만큼 투자에도 적극적인 팀이다.",
+    "permanentNumber": [
+        {
+            "no": 1,
+            "name": "Billy Martin"
+        },
+        {
+            "no": 2,
+            "name": "Derek Jeter"
+        },
+        {
+            "no": 3,
+            "name": "Babe Ruth"
+        },
+        {
+            "no": 4,
+            "name": "Lou Gehrig"
+        },
+        {
+            "no": 5,
+            "name": "Joe DiMaggio"
+        },
+        {
+            "no": 6,
+            "name": "Joe Torre"
+        },
+        {
+            "no": 7,
+            "name": "Mickey Mantle"
+        },
+        {
+            "no": 8,
+            "name": "Bill Dickey"
+        },
+        {
+            "no": 8,
+            "name": "Yogi Berra"
+        },
+        {
+            "no": 9,
+            "name": "Roger Maris"
+        },
+        {
+            "no": 10,
+            "name": "Phil Rizzuto"
+        },
+        {
+            "no": 15,
+            "name": "Thurman Munson"
+        },
+        {
+            "no": 16,
+            "name": "Whitey Ford"
+        },
+        {
+            "no": 20,
+            "name": "Jorge Posada"
+        },
+        {
+            "no": 21,
+            "name": "Paul O'Neill"
+        },
+        {
+            "no": 23,
+            "name": "Don Mattingly"
+        },
+        {
+            "no": 32,
+            "name": "Elston Howard"
+        },
+        {
+            "no": 37,
+            "name": "Casey Stengel"
+        },
+        {
+            "no": 42,
+            "name": "Mariano Rivera"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        },
+        {
+            "no": 44,
+            "name": "Reggie Jackson"
+        },
+        {
+            "no": 46,
+            "name": "Andy Pettitte"
+        },
+        {
+            "no": 49,
+            "name": "Ron Guidry"
+        },
+        {
+            "no": 51,
+            "name": "Bernie Williams"
+        }
+    ]
+}

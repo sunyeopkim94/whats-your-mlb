@@ -1,0 +1,47 @@
+{
+    "id":"cubs",
+    "name": "Chicago Cubs",
+    "since": 1870,
+    "hometown": [
+        {"city": "Chicago"}
+    ],
+    "field": "Wrigley Field",
+    "worldseries": [
+        {"year": 1907},
+        {"year": 1908},
+        {"year": 2016}
+    ],
+    "logo": "cubs.svg",
+    "keyword": "아기곰들",
+    "history": "전체 역사를 오직 시카고라는 한 도시에서만 있었던 스포츠 클럽이며, 2019년 기준 메이저리그 구단 가치 4위를 자랑하는 빅클럽이다. 또한 애틀랜타 브레이브스와 더불어 현재까지 남아있는 내셔널 리그 창립 멤버이다. 1908년 우승 이후 그래도 준우승을 7번 차지한 괜찮은 팀이었는데, 1945년 염소의 저주 이후 본격적인 암흑기가 시작되며 그때부터 71년 동안 월드 시리즈 진출에 실패했고 현지에서도 사랑스런 패자들이라는 조롱에 가까운 별명을 붙이며 전국적으로 컬트적인 인기를 끌은 약팀의 상징이 되었다. 그리고 2016년, 71년만에 월드 시리즈에 진출에 성공한 뒤 드디어 108년 만의 우승에 성공했다!",
+    "permanentNumber": [
+        {
+            "no": 10,
+            "name": "Ron Santo"
+        },
+        {
+            "no": 14,
+            "name": "Ernie Banks"
+        },
+        {
+            "no": 23,
+            "name": "Ryne Sandberg"
+        },
+        {
+            "no": 26,
+            "name": "Billy Williams"
+        },
+        {
+            "no": 31,
+            "name": "Ferguson Jenkins"
+        },
+        {
+            "no": 31,
+            "name": "Greg Maddux"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        }
+    ]
+}

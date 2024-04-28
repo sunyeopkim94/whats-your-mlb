@@ -1,0 +1,26 @@
+{
+    "id":"bluejays",
+    "name": "Toronto Blue Jays",
+    "since": 1977,
+    "hometown": [
+        {"city": "Toronto"}
+    ],
+    "field": "Rogers Centre",
+    "worldseries": [
+        {"year": 1992},
+        {"year": 1993}
+    ],
+    "logo": "bluejays.svg",
+    "keyword": "푸른 새",
+    "history": "1977년 창단하며 몬트리올 엑스포스에 이어 두 번째로 캐나다를 연고지로 만들어진 메이저 리그 구단으로, 2005년 엑스포스가 워싱턴으로 떠난 이후로는 캐나다의 유일한 메이저 리그 구단이 되었다. 1985년부터 1993년까지 5번의 포스트시즌 진출, 1992-1993년 2년 연속 월드 시리즈 우승을 달성하면서 전성기를 맞았다. 하지만 이후로는 동부지구의 강팀과 약팀들 사이 어정쩡한 중간 위치에 머물러 있다.",
+    "permanentNumber": [
+        {
+            "no": 32,
+            "name": "Roy Halladay"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        }
+    ]
+}

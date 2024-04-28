@@ -1,0 +1,41 @@
+{
+    "id":"angels",
+    "name": "Los Angeles Angels",
+    "since": 1961,
+    "hometown": [
+        {"city": "Anaheim"}
+    ],
+    "field": "Angel Stadium of Anaheim",
+    "worldseries": [
+        {"year": 2002}
+    ],
+    "logo": "angels.svg",
+    "keyword": "천사들",
+    "history": "팀명은 대도시 로스앤젤레스의 이름에서 유래했다. 현지에서의 별명은 '헤일로스(The Halos)'이며, 국내 팬들은 '천사네'라고 부른다. 여담으로 '엔젤'은 한국인들에게 친숙한 영단어인데 엔젤스가 아닌 에인절스로 한국 내 명칭이 굳어지게 되었다는 것이 특이한 부분.",
+    "permanentNumber": [
+        {
+            "no": 11,
+            "name": "Jim Fregosi"
+        },
+        {
+            "no": 26,
+            "name": "Gene Autry"
+        },
+        {
+            "no": 29,
+            "name": "Rod Carew"
+        },
+        {
+            "no": 30,
+            "name": "Nolan Ryan"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        },
+        {
+            "no": 50,
+            "name": "Jimmie Reese"
+        }
+    ]
+}

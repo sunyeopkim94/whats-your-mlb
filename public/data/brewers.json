@@ -1,0 +1,40 @@
+{
+    "id":"brewers",
+    "name": "Milwaukee Brewers",
+    "since": 1969,
+    "hometown": [
+        {"city": "Seattle"},
+        {"city": "Milwaukee"}
+    ],
+    "field": "American Family Field",
+    "worldseries": [],
+    "logo": "brewers.svg",
+    "keyword": "맥주네",
+    "history": "팀명인 브루어스는 밀워키가 미국 제1의 맥주 양조 도시이기 때문에 붙었다. 그래서인지 국내 팬들은 '맥주네'라고 부르기도 한다. 현지에서 불리는 애칭은 Brew Crew. 메이저 리그 30개 팀 중 소속 도시 광역권 인구가 제일 적은 팀이지만, 매년 관중 10~15위를 오갈만큼 팬들의 충성도가 대단한 팀이다. 아직까지 월드 시리즈 우승이 없을 정도로 좋은 성적을 올린 적은 많지 않지만, 모범적인 스몰마켓 팀 중 하나로써 다크호스 자리는 꾸준히 유지하고 있다.",
+    "permanentNumber": [
+        {
+            "no": 1,
+            "name": "Bud Selig"
+        },
+        {
+            "no": 4,
+            "name": "Paul Molitor"
+        },
+        {
+            "no": 19,
+            "name": "Robin Yount"
+        },
+        {
+            "no": 34,
+            "name": "Rollie Fingers"
+        },
+        {
+            "no": 42,
+            "name": "Jackie Robinson"
+        },
+        {
+            "no": 44,
+            "name": "Hank Aaron"
+        }
+    ]
+}
