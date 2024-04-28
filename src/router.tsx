@@ -2,7 +2,12 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Teams from "./routes/Teams";
 import Team from "./routes/Team";
 
-function Router(){
+interface IRouterProps {
+    toggleTheme: () => void;
+    isDark: boolean;
+}
+
+function Router({toggleTheme, isDark}:IRouterProps){
     return (
         <BrowserRouter>
             <Switch>
@@ -10,7 +15,7 @@ function Router(){
                     <Team />
                 </Route>
                 <Route path="/">
-                    <Teams />
+                    <Teams toggleTheme={toggleTheme} isDark={isDark} />
                 </Route>
             </Switch>
         </BrowserRouter>

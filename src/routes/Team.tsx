@@ -6,6 +6,28 @@ const Container = styled.div`
     padding: 0 20px;
     max-width: 480px;
     margin: 0 auto;
+    text-align: center;
+`;
+
+const Logo = styled.img`
+    width: 200px;
+    height: 200px;
+`;
+
+const Keyword = styled.p`
+    font-size: 12px;
+`;
+
+const Name = styled.h1`
+    font-size: 36px;
+`;
+
+const History = styled.p`
+    margin-top: 20px;
+    line-height: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: ${(props) => props.theme.cardBgColor};
 `;
 
 interface Params {
@@ -54,11 +76,11 @@ function Team(){
     },[]);
     return (
         <Container>
-            <img src={`./img/teams/${team?.logo}`} alt={team?.name} />
-            <p>'{team?.keyword}'</p>
-            <h1>{team?.name}</h1>
+            <Logo src={`./img/teams/${team?.logo}`} alt={team?.name} />
+            <Keyword>'{team?.keyword}'</Keyword>
+            <Name>{team?.name}</Name>
+            <History>{team?.history}</History>
             <h5>since{team?.since}...</h5>
-            <p>{team?.history}</p>
             <ul>
                 연고지 이력
                 {team?.hometown.map((item) => {

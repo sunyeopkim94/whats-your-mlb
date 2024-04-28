@@ -1,9 +1,10 @@
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import Router from "./router";
-import { theme } from "./theme";
+import { darkTheme, lightTheme } from "./theme";
+import { useState } from "react";
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -35,7 +36,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     line-height: 1;
-    font-family: "Poor Story", system-ui;
+    font-family: "Do Hyeon", sans-serif;
     background-color:${(props) => props.theme.bgColor};
     color:${(props) => props.theme.textColor};
   }
@@ -61,11 +62,13 @@ const GlobalStyle = createGlobalStyle`
 `
 
 function App() {
+  const [isDark, setIsDark] = useState(false);
+  const toggleTheme = () => setIsDark((current) => !current);
   return (
     <>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
         <GlobalStyle />
-        <Router />
+        <Router toggleTheme={toggleTheme} isDark={isDark} />
       </ThemeProvider>
     </>
   );
