@@ -60,14 +60,6 @@ const Logo = styled.img`
     height: 50px;
 `;
 
-const Footer = styled.footer`
-height: 10vh;
-line-height: 10vh;
-text-align: center;
-font-size: 12px;
-color: ${(props) => props.theme.textColor};
-`;
-
 interface ITeams {
     id: string;
     name: string;
@@ -138,9 +130,6 @@ function Teams({toggleTheme, isDark}:ITeamsProps){
                     })}
                 </>}
             </TeamList>
-            <Footer>
-                © 2024 MLB Advanced Media, LP. All rights reserved.
-            </Footer>
         </Container>
 
     )

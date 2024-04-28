@@ -7,7 +7,7 @@ export const darkTheme:DefaultTheme = {
 }
 
 export const lightTheme:DefaultTheme = {
-    bgColor: "#ecf0f1",
+    bgColor: "#dcdde1",
     textColor: "#111",
     cardBgColor: "#7f8c8d"
 }

@@ -1,4 +1,4 @@
-import { ThemeProvider, createGlobalStyle } from "styled-components";
+import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 import Router from "./router";
 import { darkTheme, lightTheme } from "./theme";
 import { useState } from "react";
@@ -60,6 +60,13 @@ const GlobalStyle = createGlobalStyle`
     color: inherit;
   }
 `
+const Footer = styled.footer`
+  height: 10vh;
+  line-height: 10vh;
+  text-align: center;
+  font-size: 12px;
+  color: ${(props) => props.theme.textColor};
+`;
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -70,6 +77,9 @@ function App() {
         <GlobalStyle />
         <Router toggleTheme={toggleTheme} isDark={isDark} />
       </ThemeProvider>
+      <Footer>
+        © 2024 MLB Advanced Media, LP. All rights reserved.
+      </Footer>
     </>
   );
 }
