@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 
 const Container = styled.div`
     padding: 0 20px;
@@ -94,6 +95,9 @@ function Teams({toggleTheme, isDark}:ITeamsProps){
     }
     return (
         <Container>
+            <Helmet>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" />
+            </Helmet>
             <Header>
                 <Title>What's Your MLB?</Title>
             </Header>

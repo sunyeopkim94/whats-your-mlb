@@ -6,6 +6,7 @@
         {"city": "Chicago"}
     ],
     "field": "Guaranteed Rate Field",
+    "fieldImg": "guaranteedRateField.jpg",
     "worldseries": [
         {"year": 1906},
         {"year": 1917},
@@ -17,50 +18,74 @@
     "permanentNumber": [
         {
             "no": 2,
+            "teamColor": "#000",
+            "pic": "nellieFox.jpg",
             "name": "Nellie Fox"
         },
         {
             "no": 3,
+            "teamColor": "#000",
+            "pic": "haroldBaines.png",
             "name": "Harold Baines"
         },
         {
             "no": 4,
+            "teamColor": "#000",
+            "pic": "lukeAppling.webp",
             "name": "Luke Appling"
         },
         {
             "no": 9,
+            "teamColor": "#000",
+            "pic": "minnieMinoso.jpg",
             "name": "Minnie Miñoso"
         },
         {
             "no": 11,
+            "teamColor": "#000",
+            "pic": "luisAparicio.png",
             "name": "Luis Aparicio"
         },
         {
             "no": 14,
+            "teamColor": "#000",
+            "pic": "paulKorneko.webp",
             "name": "Paul Korneko"
         },
         {
             "no": 16,
+            "teamColor": "#000",
+            "pic": "tedLyons.jpg",
             "name": "Ted Lyons"
         },
         {
             "no": 19,
+            "teamColor": "#000",
+            "pic": "billyPierce.jpg",
             "name": "Billy Pierce"
         },
         {
             "no": 35,
+            "teamColor": "#000",
+            "pic": "frankThomas.webp",
             "name": "Frank Thomas"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 56,
+            "teamColor": "#000",
+            "pic": "markBuehrle.jpg",
             "name": "Mark Buehrle"
         },
         {
             "no": 72,
+            "teamColor": "#000",
+            "pic": "carltonFisk_whitesox.jpg",
             "name": "Carlton Fisk"
         }
     ]

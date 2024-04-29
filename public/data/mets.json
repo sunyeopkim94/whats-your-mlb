@@ -6,6 +6,7 @@
         {"city": "New York"}
     ],
     "field": "Citi Field",
+    "fieldImg": "citiField.jpg",
     "worldseries": [
         {"year": 1969},
         {"year": 1986}
@@ -16,42 +17,62 @@
     "permanentNumber": [
         {
             "no": 14,
+            "teamColor": "#1e3799",
+            "pic": "gilHodges_mets.jpg",
             "name": "Gil Hodges"
         },
         {
             "no": 16,
+            "teamColor": "#1e3799",
+            "pic": "dwightGooden.jpg",
             "name": "Dwight Gooden"
         },
         {
             "no": 17,
+            "teamColor": "#1e3799",
+            "pic": "keithHernandez.png",
             "name": "Keith Hernandez"
         },
         {
             "no": 18,
+            "teamColor": "#1e3799",
+            "pic": "darrylStrawberry.jpg",
             "name": "Darryl Strawberry"
         },
         {
             "no": 24,
+            "teamColor": "#1e3799",
+            "pic": "willieMays_mets.jpg",
             "name": "Willie Mays"
         },
         {
             "no": 31,
+            "teamColor": "#1e3799",
+            "pic": "mikePiazza.webp",
             "name": "Mike Piazza"
         },
         {
             "no": 36,
+            "teamColor": "#1e3799",
+            "pic": "jerryKoosman.jpg",
             "name": "Jerry Koosman"
         },
         {
             "no": 37,
+            "teamColor": "#1e3799",
+            "pic": "caseyStengel.jpg",
             "name": "Casey Stengel"
         },
         {
             "no": 41,
+            "teamColor": "#1e3799",
+            "pic": "tomSeaver.webp",
             "name": "Tom Seaver"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

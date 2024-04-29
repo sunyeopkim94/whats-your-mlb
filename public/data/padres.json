@@ -6,6 +6,7 @@
         {"city": "San Diego"}
     ],
     "field": "Petco Park",
+    "fieldImg": "petcoPark.png",
     "worldseries": [],
     "logo": "padres.svg",
     "keyword": "수도원의 신부들",
@@ -13,26 +14,38 @@
     "permanentNumber": [
         {
             "no": 6,
+            "teamColor": "#5F3726",
+            "pic": "steveGarvey.jpg",
             "name": "Steve Garvey"
         },
         {
             "no": 19,
+            "teamColor": "#5F3726",
+            "pic": "tonyGwynn.jpg",
             "name": "Tony Gwynn"
         },
         {
             "no": 31,
+            "teamColor": "#5F3726",
+            "pic": "daveWinfield.jpg",
             "name": "Dave Winfield"
         },
         {
             "no": 35,
+            "teamColor": "#5F3726",
+            "pic": "randyJones.png",
             "name": "Randy Jones"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 51,
+            "teamColor": "#5F3726",
+            "pic": "trevorHoffman.jpg",
             "name": "Trevor Hoffman"
         }
     ]

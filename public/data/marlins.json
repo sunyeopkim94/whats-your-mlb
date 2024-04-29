@@ -6,6 +6,7 @@
         {"city": "Miami"}
     ],
     "field": "loanDepot Park",
+    "fieldImg": "ioanDepotPark.jpg",
     "worldseries": [
         {"year": 1997},
         {"year": 2003}
@@ -16,6 +17,8 @@
     "permanentNumber": [
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

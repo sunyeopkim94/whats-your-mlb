@@ -7,6 +7,7 @@
         {"city": "Washington D.C."}
     ],
     "field": "Nationals Park",
+    "fieldImg": "nationalsPark.jpg",
     "worldseries": [
         {"year": 2019}
     ],
@@ -16,26 +17,38 @@
     "permanentNumber": [
         {
             "no": 8,
+            "teamColor": "#b71540",
+            "pic": "garyCarter.webp",
             "name": "Gary Carter"
         },
         {
             "no": 10,
+            "teamColor": "#b71540",
+            "pic": "andreDawson.jpg",
             "name": "Andre Dawson"
         },
         {
             "no": 10,
+            "teamColor": "#b71540",
+            "pic": "rustyStaub.jpg",
             "name": "Rusty Staub"
         },
         {
             "no": 11,
+            "teamColor": "#b71540",
+            "pic": "ryanZimmerman.jpg",
             "name": "Ryan Zimmerman"
         },
         {
             "no": 30,
+            "teamColor": "#b71540",
+            "pic": "timRaines.jpg",
             "name": "Tim Raines"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

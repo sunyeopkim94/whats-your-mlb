@@ -6,6 +6,7 @@
         {"city": "Toronto"}
     ],
     "field": "Rogers Centre",
+    "fieldImg": "rogersCentre.jpg",
     "worldseries": [
         {"year": 1992},
         {"year": 1993}
@@ -16,10 +17,14 @@
     "permanentNumber": [
         {
             "no": 32,
+            "teamColor": "#0652DD",
+            "pic": "royHalladay_bluejays.jpg",
             "name": "Roy Halladay"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

@@ -7,6 +7,7 @@
         {"city": "San Francisco"}
     ],
     "field": "Oracle Park",
+    "fieldImg": "oraclePark.jpg",
     "worldseries": [
         {"year": 1905},
         {"year": 1921},
@@ -23,50 +24,74 @@
     "permanentNumber": [
         {
             "no": 3,
+            "teamColor": "#222",
+            "pic": "billTerry.jpg",
             "name": "Bill Terry"
         },
         {
             "no": 4,
+            "teamColor": "#222",
+            "pic": "melOtt.jpg",
             "name": "Mel Ott"
         },
         {
             "no": 11,
+            "teamColor": "#222",
+            "pic": "carlHubbell.jpg",
             "name": "Carl Hubbell"
         },
         {
             "no": 20,
+            "teamColor": "#222",
+            "pic": "monteIrvin.png",
             "name": "Monte Irvin"
         },
         {
             "no": 22,
+            "teamColor": "#222",
+            "pic": "willClark.jpg",
             "name": "Will Clark"
         },
         {
             "no": 24,
+            "teamColor": "#222",
+            "pic": "willieMays.webp",
             "name": "Willie Mays"
         },
         {
             "no": 25,
+            "teamColor": "#222",
+            "pic": "barryBonds.webp",
             "name": "Barry Bonds*"
         },
         {
             "no": 27,
+            "teamColor": "#222",
+            "pic": "juanMarichal.webp",
             "name": "Juan Marichal"
         },
         {
             "no": 30,
+            "teamColor": "#222",
+            "pic": "orlandoCepeda.jpg",
             "name": "Orlando Cepeda"
         },
         {
             "no": 36,
+            "teamColor": "#222",
+            "pic": "gaylordPerry.jpg",
             "name": "Gaylord Perry"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 44,
+            "teamColor": "#222",
+            "pic": "willieMcCovey.jpg",
             "name": "Willie McCovey"
         }
     ]

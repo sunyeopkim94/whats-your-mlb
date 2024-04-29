@@ -6,6 +6,7 @@
         {"city": "Houston"}
     ],
     "field": "Minute Maid Park",
+    "fieldImg": "minuteMaidPark.jpg",
     "worldseries": [
         {"year": 2017},
         {"year": 2022}
@@ -16,42 +17,62 @@
     "permanentNumber": [
         {
             "no": 5,
+            "teamColor": "#1B1464",
+            "pic": "jeffBagwell.jpg",
             "name": "Jeff Bagwell"
         },
         {
             "no": 7,
+            "teamColor": "#1B1464",
+            "pic": "craigBiggio.jpg",
             "name": "Craig Biggio"
         },
         {
             "no": 24,
+            "teamColor": "#1B1464",
+            "pic": "jimWynn.jpg",
             "name": "Jim Wynn"
         },
         {
             "no": 25,
+            "teamColor": "#1B1464",
+            "pic": "joseCruz.jpg",
             "name": "José Cruz"
         },
         {
             "no": 32,
+            "teamColor": "#1B1464",
+            "pic": "jimUmbricht.jpg",
             "name": "Jim Umbricht"
         },
         {
             "no": 33,
+            "teamColor": "#1B1464",
+            "pic": "mikeScott.jpg",
             "name": "Mike Scott"
         },
         {
             "no": 34,
+            "teamColor": "#1B1464",
+            "pic": "nolanRyan_astros.jpg",
             "name": "Nolan Ryan"
         },
         {
             "no": 40,
+            "teamColor": "#1B1464",
+            "pic": "donWilson.jpg",
             "name": "Don Wilson"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 49,
+            "teamColor": "#1B1464",
+            "pic": "larryDierker.jpg",
             "name": "Larry Dierker"
         }
     ]

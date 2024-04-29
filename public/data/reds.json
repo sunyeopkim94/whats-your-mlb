@@ -6,6 +6,7 @@
         {"city": "Cincinnati"}
     ],
     "field": "Great American Ball Park",
+    "fieldImg": "greatAmericanBallPark.png",
     "worldseries": [
         {"year": 1919},
         {"year": 1940},
@@ -19,46 +20,68 @@
     "permanentNumber": [
         {
             "no": 1,
+            "teamColor": "#e84118",
+            "pic": "fredHutchinson.jpg",
             "name": "Fred Hutchinson"
         },
         {
             "no": 5,
+            "teamColor": "#e84118",
+            "pic": "johnnyBench.jpg",
             "name": "Johnny Bench"
         },
         {
             "no": 8,
+            "teamColor": "#e84118",
+            "pic": "joeMorgan.jpg",
             "name": "Joe Morgan"
         },
         {
             "no": 10,
+            "teamColor": "#e84118",
+            "pic": "sparkyAnderson.jpg",
             "name": "Sparky Anderson"
         },
         {
             "no": 11,
+            "teamColor": "#e84118",
+            "pic": "barryLarkin.webp",
             "name": "Barry Larkin"
         },
         {
             "no": 13,
+            "teamColor": "#e84118",
+            "pic": "daveConcepcion.jpg",
             "name": "Dave Concepción"
         },
         {
             "no": 14,
+            "teamColor": "#e84118",
+            "pic": "peteRose.jpg",
             "name": "Pete Rose*"
         },
         {
             "no": 18,
+            "teamColor": "#e84118",
+            "pic": "tedKluszewski.jpg",
             "name": "Ted Kluszewski"
         },
         {
             "no": 20,
+            "teamColor": "#e84118",
+            "pic": "frankRobinson_reds.jpg",
             "name": "Frank Robinson"
         },
         {
             "no": 24,
+            "teamColor": "#e84118",
+            "pic": "tonyPerez.jpg",
             "name": "Tony Pérez"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

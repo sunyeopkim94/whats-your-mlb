@@ -6,6 +6,7 @@
         {"city": "Chicago"}
     ],
     "field": "Wrigley Field",
+    "fieldImg": "wrigleyField.png",
     "worldseries": [
         {"year": 1907},
         {"year": 1908},
@@ -17,30 +18,44 @@
     "permanentNumber": [
         {
             "no": 10,
+            "teamColor": "#e74c3c",
+            "pic": "ronSanto.webp",
             "name": "Ron Santo"
         },
         {
             "no": 14,
+            "teamColor": "#e74c3c",
+            "pic": "ernieBanks.jpg",
             "name": "Ernie Banks"
         },
         {
             "no": 23,
+            "teamColor": "#e74c3c",
+            "pic": "ryneSandberg.webp",
             "name": "Ryne Sandberg"
         },
         {
             "no": 26,
+            "teamColor": "#e74c3c",
+            "pic": "billyWilliams.jpg",
             "name": "Billy Williams"
         },
         {
             "no": 31,
+            "teamColor": "#e74c3c",
+            "pic": "fergusonJenkins.jpeg",
             "name": "Ferguson Jenkins"
         },
         {
             "no": 31,
+            "teamColor": "#e74c3c",
+            "pic": "gregMaddux_cubs.jpg",
             "name": "Greg Maddux"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

@@ -6,6 +6,7 @@
         {"city": "Boston"}
     ],
     "field": "Fenway Park",
+    "fieldImg": "fenwayPark.jpg",
     "worldseries": [
         {"year": 1903},
         {"year": 1912},
@@ -23,46 +24,68 @@
     "permanentNumber": [
         {
             "no": 1,
+            "teamColor": "#c0392b",
+            "pic": "bobbyDoerr.jpg",
             "name": "Bobby Doerr"
         },
         {
             "no": 4,
+            "teamColor": "#c0392b",
+            "pic": "joeCronin.jpg",
             "name": "Joe Cronin"
         },
         {
             "no": 6,
+            "teamColor": "#c0392b",
+            "pic": "johnnyPesky.jpg",
             "name": "Johnny Pesky"
         },
         {
             "no": 8,
+            "teamColor": "#c0392b",
+            "pic": "carlYastrzemski.jpg",
             "name": "Carl Yastrzemski"
         },
         {
             "no": 9,
+            "teamColor": "#c0392b",
+            "pic": "tedWilliams.jpg",
             "name": "Ted Williams"
         },
         {
             "no": 14,
+            "teamColor": "#c0392b",
+            "pic": "jimRice.jpg",
             "name": "Jim Rice"
         },
         {
             "no": 26,
+            "teamColor": "#c0392b",
+            "pic": "wadeBoggs_redsox.jpg",
             "name": "Wade Boggs"
         },
         {
             "no": 27,
+            "teamColor": "#c0392b",
+            "pic": "carltonFisk.jpg",
             "name": "Carlton Fisk"
         },
         {
             "no": 34,
+            "teamColor": "#c0392b",
+            "pic": "davidOrtiz.jpg",
             "name": "David Ortiz*"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 45,
+            "teamColor": "#c0392b",
+            "pic": "pedroMartinez.jpg",
             "name": "Pedro Martinez"
         }
     ]

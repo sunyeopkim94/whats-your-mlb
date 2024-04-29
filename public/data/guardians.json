@@ -7,6 +7,7 @@
         {"city": "Cleveland"}
     ],
     "field": "Progressive Field",
+    "fieldImg": "progressiveField.jpg",
     "worldseries": [
         {"year": 1920},
         {"year": 1948}
@@ -17,38 +18,56 @@
     "permanentNumber": [
         {
             "no": 3,
+            "teamColor": "#c0392b",
+            "pic": "earlAverill.jpg",
             "name": "Earl Averill"
         },
         {
             "no": 5,
+            "teamColor": "#c0392b",
+            "pic": "louBoudreau.webp",
             "name": "Lou Boudreau"
         },
         {
             "no": 14,
+            "teamColor": "#c0392b",
+            "pic": "larryDoby.jpg",
             "name": "Larry Doby"
         },
         {
             "no": 18,
+            "teamColor": "#c0392b",
+            "pic": "melHarder.jpg",
             "name": "Mel Harder"
         },
         {
             "no": 19,
+            "teamColor": "#c0392b",
+            "pic": "bobFeller.webp",
             "name": "Bob Feller"
         },
         {
             "no": 20,
+            "teamColor": "#c0392b",
+            "pic": "frankRobinson.webp",
             "name": "Frank Robinson"
         },
         {
             "no": 21,
+            "teamColor": "#c0392b",
+            "pic": "bobLemon.jpg",
             "name": "Bob Lemon"
         },
         {
             "no": 25,
+            "teamColor": "#c0392b",
+            "pic": "jimThome.jpg",
             "name": "Jim Thome"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

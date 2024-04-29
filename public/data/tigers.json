@@ -6,6 +6,7 @@
         {"city": "Detroit"}
     ],
     "field": "Comerica Park",
+    "fieldImg": "comericaPark.jpg",
     "worldseries": [
         {"year": 1935},
         {"year": 1945},
@@ -18,42 +19,62 @@
     "permanentNumber": [
         {
             "no": 1,
+            "teamColor": "#192a56",
+            "pic": "louWhitaker.jpg",
             "name": "Lou Whitaker"
         },
         {
             "no": 2,
+            "teamColor": "#192a56",
+            "pic": "charlieGehringer.jpg",
             "name": "Charlie Gehringer"
         },
         {
             "no": 3,
+            "teamColor": "#192a56",
+            "pic": "alanTrammel.jpg",
             "name": "Alan Trammel"
         },
         {
             "no": 5,
+            "teamColor": "#192a56",
+            "pic": "hankGreenberg.webp",
             "name": "Hank Greenberg"
         },
         {
             "no": 6,
+            "teamColor": "#192a56",
+            "pic": "alKaline.webp",
             "name": "Al Kaline"
         },
         {
             "no": 11,
+            "teamColor": "#192a56",
+            "pic": "sparkyAnderson.webp",
             "name": "Sparky Anderson"
         },
         {
             "no": 16,
+            "teamColor": "#192a56",
+            "pic": "halNewhouser.jpg",
             "name": "Hal Newhouser"
         },
         {
             "no": 23,
+            "teamColor": "#192a56",
+            "pic": "willieHorton.webp",
             "name": "Willie Horton"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 47,
+            "teamColor": "#192a56",
+            "pic": "jackMorris.jpg",
             "name": "Jack Morris"
         }
     ]

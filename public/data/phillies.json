@@ -6,6 +6,7 @@
         {"city": "Philadelphia"}
     ],
     "field": "Citizens Bank Park",
+    "fieldImg": "citizensBankPark.jpg",
     "worldseries": [
         {"year": 1980},
         {"year": 2008}
@@ -16,34 +17,50 @@
     "permanentNumber": [
         {
             "no": 1,
+            "teamColor": "#d63031",
+            "pic": "richieAshburn.jpg",
             "name": "Richie Ashburn"
         },
         {
             "no": 14,
+            "teamColor": "#d63031",
+            "pic": "jimBunning.jpg",
             "name": "Jim Bunning"
         },
         {
             "no": 15,
+            "teamColor": "#d63031",
+            "pic": "dickAllen.jpg",
             "name": "Dick Allen"
         },
         {
             "no": 20,
+            "teamColor": "#d63031",
+            "pic": "mikeSchmidt.jpg",
             "name": "Mike Schmidt"
         },
         {
             "no": 32,
+            "teamColor": "#d63031",
+            "pic": "steveCarlton.webp",
             "name": "Steve Carlton"
         },
         {
             "no": 34,
+            "teamColor": "#d63031",
+            "pic": "royHalladay.webp",
             "name": "Roy Halladay"
         },
         {
             "no": 36,
+            "teamColor": "#d63031",
+            "pic": "robinRoberts.webp",
             "name": "Robin Roberts"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

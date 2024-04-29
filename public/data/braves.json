@@ -8,6 +8,7 @@
         {"city": "Atlanta"}
     ],
     "field": "Truist Park",
+    "fieldImg": "truistPark.png",
     "worldseries": [
         {"year": 1914},
         {"year": 1957},
@@ -20,50 +21,74 @@
     "permanentNumber": [
         {
             "no": 3,
+            "teamColor": "#c23616",
+            "pic": "daleMurphy.jpg",
             "name": "Dale Murphy"
         },
         {
             "no": 6,
+            "teamColor": "#c23616",
+            "pic": "bobbyCox.jpg",
             "name": "Bobby Cox"
         },
         {
             "no": 10,
+            "teamColor": "#c23616",
+            "pic": "chipperJones.jpg",
             "name": "Chipper Jones"
         },
         {
             "no": 21,
+            "teamColor": "#c23616",
+            "pic": "warrenSpahn.jpg",
             "name": "Warren Spahn"
         },
         {
             "no": 25,
+            "teamColor": "#c23616",
+            "pic": "andruwJones.jpg",
             "name": "Andruw Jones"
         },
         {
             "no": 29,
+            "teamColor": "#c23616",
+            "pic": "johnSmoltz.jpg",
             "name": "John Smoltz"
         },
         {
             "no": 31,
+            "teamColor": "#c23616",
+            "pic": "gregMaddux.jpg",
             "name": "Greg Maddux"
         },
         {
             "no": 35,
+            "teamColor": "#c23616",
+            "pic": "philNiekro.jpg",
             "name": "Phil Niekro"
         },
         {
             "no": 41,
+            "teamColor": "#c23616",
+            "pic": "eddieMathews.jpg",
             "name": "Eddie Mathews"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 44,
+            "teamColor": "#c23616",
+            "pic": "hankAaron.jpg",
             "name": "Hank Aaron"
         },
         {
             "no": 47,
+            "teamColor": "#c23616",
+            "pic": "tomGlavine.jpg",
             "name": "Tom Glavine"
         }
     ]

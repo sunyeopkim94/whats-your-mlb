@@ -6,6 +6,7 @@
         {"city": "Denver"}
     ],
     "field": "Coors Field",
+    "fieldImg": "coorsField.jpg",
     "worldseries": [],
     "logo": "rockies.svg",
     "keyword": "로키산맥",
@@ -13,14 +14,20 @@
     "permanentNumber": [
         {
             "no": 17,
+            "teamColor": "#574b90",
+            "pic": "toddHelton.webp",
             "name": "Todd Helton"
         },
         {
             "no": 33,
+            "teamColor": "#574b90",
+            "pic": "larryWalker.webp",
             "name": "Larry Walker"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

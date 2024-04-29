@@ -6,6 +6,7 @@
         {"city": "Anaheim"}
     ],
     "field": "Angel Stadium of Anaheim",
+    "fieldImg": "angelStadium.png",
     "worldseries": [
         {"year": 2002}
     ],
@@ -15,26 +16,38 @@
     "permanentNumber": [
         {
             "no": 11,
+            "teamColor": "#c0392b",
+            "pic": "jimFregosi.jpg",
             "name": "Jim Fregosi"
         },
         {
             "no": 26,
+            "teamColor": "#c0392b",
+            "pic": "geneAutry.jpg",
             "name": "Gene Autry"
         },
         {
             "no": 29,
+            "teamColor": "#c0392b",
+            "pic": "rodCarew.jpg",
             "name": "Rod Carew"
         },
         {
             "no": 30,
+            "teamColor": "#c0392b",
+            "pic": "nolanRyan_angels.jpg",
             "name": "Nolan Ryan"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 50,
+            "teamColor": "#c0392b",
+            "pic": "jimmieReese.jpg",
             "name": "Jimmie Reese"
         }
     ]

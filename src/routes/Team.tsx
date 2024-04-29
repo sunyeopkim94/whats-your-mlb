@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import { useLocation, useParams } from "react-router-dom";
 import styled from "styled-components";
 
@@ -24,9 +25,18 @@ const Name = styled.h1`
     font-weight: 900;
 `;
 
+const SectionContainer = styled.div`
+    margin: 5px 0;
+`
+
+const SectionTitle = styled.h5`
+    text-align: left;
+    padding: 0 0 2px 15px;
+    width: calc(50% - 5px);
+`;
+
 const History = styled.p`
-    margin-top: 20px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     padding: 25px;
     border-radius: 10px;
@@ -36,7 +46,6 @@ const History = styled.p`
 const ArticleContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
 `;
 
 const Since = styled.h5`
@@ -58,11 +67,23 @@ const Hometown = styled.ul`
     font-weight: 500;
 `;
 
+const FieldContainer = styled.div`
+    margin: 5px 0;
+    position: relative;
+`;
+
+const FieldImg = styled.img`
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+`;
+
 const Field = styled.h5`
     width: 100%;
     background-color: ${(props) => props.theme.cardBgColor};
     border-radius: 10px;
     padding: 20px 0;
+    margin-bottom: 10px;
 `;
 
 const WorldSeries = styled.ul`
@@ -70,28 +91,28 @@ const WorldSeries = styled.ul`
     background-color: ${(props) => props.theme.cardBgColor};
     border-radius: 10px;
     padding: 20px 0;
-    margin: 10px 0;
-    li {
-        margin-top: 10px;
-        &:first-child {
-            margin-top: 0;
-        }
-        h1 {
-            width: 80px;
-            height: 80px;
-            font-size: 38px;
-            font-weight: 900;
-            color: #000;
-            line-height: 80px;
-            border-radius: 50%;
-            background-color: white;
-            margin: 0 auto;
+`;
 
-        }
-        p {
-            font-size: 12px;
-            font-weight: 900;
-        }
+const NumberContainer = styled.li`
+    margin-top: 10px;
+    &:first-child {
+        margin-top: 0;
+    }
+    h1 {
+        width: 80px;
+        height: 80px;
+        font-size: 46px;
+        font-weight: 900;
+        color: #000;
+        line-height: 80px;
+        border-radius: 50%;
+        background-color: white;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 900;
     }
 `;
 
@@ -113,6 +134,8 @@ interface Worldseries {
 
 interface PermanetNumber {
     no: number;
+    teamColor: string;
+    pic: string;
     name: string;
 }
 
@@ -121,6 +144,7 @@ interface ITeam {
     name: string;
     hometown: Hometown[];
     field: string;
+    fieldImg: string;
     since: number;
     keyword: string;
     logo: string;
@@ -141,10 +165,20 @@ function Team(){
     },[]);
     return (
         <Container>
+            <Helmet>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" />
+            </Helmet>
             <Logo src={`./img/teams/${team?.logo}`} alt={team?.name} />
             <Keyword>'{team?.keyword}'</Keyword>
             <Name>{team?.name}</Name>
-            <History>{team?.history}</History>
+            <SectionContainer>
+                <SectionTitle>History</SectionTitle>
+                <History>{team?.history}</History>
+            </SectionContainer>
+            <ArticleContainer style={{marginBottom: 0}}>
+                <SectionTitle>Since</SectionTitle>
+                <SectionTitle>Home Town</SectionTitle>
+            </ArticleContainer>
             <ArticleContainer>
                 <Since>{team?.since}</Since>
                 <Hometown>
@@ -157,26 +191,36 @@ function Team(){
                     })}
                 </Hometown>
             </ArticleContainer>
-            <Field>{team?.field}</Field>
-            <WorldSeries>
-                {team?.worldseries.map((item) => {
-                    return (
-                        <li key={item.year}>
-                            <span>{item.year}</span>
-                        </li>
-                    )
-                })}
-            </WorldSeries>
-            <WorldSeries>
-                {team?.permanentNumber.map((item) => {
-                    return (
-                        <li key={item.no}>
-                            <h1>{item.no}</h1>
-                            <p>{item.name}</p>
-                        </li>
-                    )
-                })}
-            </WorldSeries>
+            <FieldContainer>
+                <SectionTitle>Home Field</SectionTitle>
+                <Field>{team?.field}</Field>
+                <FieldImg src={`./img/fields/${team?.fieldImg}`} alt={team?.field} />
+            </FieldContainer>
+            <SectionContainer>
+                <SectionTitle>World Series</SectionTitle>
+                <WorldSeries>
+                    {team?.worldseries.map((item) => {
+                        return (
+                            <li key={item.year}>
+                                <span>{item.year}</span>
+                            </li>
+                        )
+                    })}
+                </WorldSeries>
+            </SectionContainer>
+            <SectionContainer>
+                <SectionTitle>Permanent Number</SectionTitle>
+                <WorldSeries>
+                    {team?.permanentNumber.map((item) => {
+                        return (
+                            <NumberContainer key={item.no}>
+                                <h1 style={{color: item.teamColor}}>{item.no}</h1>
+                                <p>{item.name}</p>
+                            </NumberContainer>
+                        )
+                    })}
+                </WorldSeries>
+            </SectionContainer>
         </Container>
     )
 }

@@ -6,6 +6,7 @@
         {"city": "New York"}
     ],
     "field": "Yankee Stadium",
+    "fieldImg": "yankeeStadium.jpg",
     "worldseries": [
         {"year": 1923},
         {"year": 1927},
@@ -41,98 +42,146 @@
     "permanentNumber": [
         {
             "no": 1,
+            "teamColor": "#273c75",
+            "pic": "billyMartin.jpg",
             "name": "Billy Martin"
         },
         {
             "no": 2,
+            "teamColor": "#273c75",
+            "pic": "derekJeter.webp",
             "name": "Derek Jeter"
         },
         {
             "no": 3,
+            "teamColor": "#273c75",
+            "pic": "babeRuth.webp",
             "name": "Babe Ruth"
         },
         {
             "no": 4,
+            "teamColor": "#273c75",
+            "pic": "louGehrig.jpg",
             "name": "Lou Gehrig"
         },
         {
             "no": 5,
+            "teamColor": "#273c75",
+            "pic": "joeDiMaggio.jpg",
             "name": "Joe DiMaggio"
         },
         {
             "no": 6,
+            "teamColor": "#273c75",
+            "pic": "joeTorre.jpg",
             "name": "Joe Torre"
         },
         {
             "no": 7,
+            "teamColor": "#273c75",
+            "pic": "mickeyMantle.webp",
             "name": "Mickey Mantle"
         },
         {
             "no": 8,
+            "teamColor": "#273c75",
+            "pic": "billDickey.jpg",
             "name": "Bill Dickey"
         },
         {
             "no": 8,
+            "teamColor": "#273c75",
+            "pic": "yogiBerra.webp",
             "name": "Yogi Berra"
         },
         {
             "no": 9,
+            "teamColor": "#273c75",
+            "pic": "rogerMaris.jpg",
             "name": "Roger Maris"
         },
         {
             "no": 10,
+            "teamColor": "#273c75",
+            "pic": "philRizzuto.jpg",
             "name": "Phil Rizzuto"
         },
         {
             "no": 15,
+            "teamColor": "#273c75",
+            "pic": "thurmanMunson.jpg",
             "name": "Thurman Munson"
         },
         {
             "no": 16,
+            "teamColor": "#273c75",
+            "pic": "whiteyFord.jpg",
             "name": "Whitey Ford"
         },
         {
             "no": 20,
+            "teamColor": "#273c75",
+            "pic": "jorgePosada.jpg",
             "name": "Jorge Posada"
         },
         {
             "no": 21,
+            "teamColor": "#273c75",
+            "pic": "paulONeill.jpg",
             "name": "Paul O'Neill"
         },
         {
             "no": 23,
+            "teamColor": "#273c75",
+            "pic": "donMattingly.webp",
             "name": "Don Mattingly"
         },
         {
             "no": 32,
+            "teamColor": "#273c75",
+            "pic": "elstonHoward.jpg",
             "name": "Elston Howard"
         },
         {
             "no": 37,
+            "teamColor": "#273c75",
+            "pic": "caseyStengel.webp",
             "name": "Casey Stengel"
         },
         {
             "no": 42,
+            "teamColor": "#273c75",
+            "pic": "marianoRivera.webp",
             "name": "Mariano Rivera"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 44,
+            "teamColor": "#273c75",
+            "pic": "reggieJackson_yakees.png",
             "name": "Reggie Jackson"
         },
         {
             "no": 46,
+            "teamColor": "#273c75",
+            "pic": "andyPettitte.jpg",
             "name": "Andy Pettitte"
         },
         {
             "no": 49,
+            "teamColor": "#273c75",
+            "pic": "ronGuidry.jpg",
             "name": "Ron Guidry"
         },
         {
             "no": 51,
+            "teamColor": "#273c75",
+            "pic": "bernieWilliams.webp",
             "name": "Bernie Williams"
         }
     ]

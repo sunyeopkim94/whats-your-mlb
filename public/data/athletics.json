@@ -10,6 +10,7 @@
         {"city": "Las Vegas"}
     ],
     "field": "RingCentral Coliseum",
+    "fieldImg": "ringCentralColiseum.png",
     "worldseries": [
         {"year": 1910},
         {"year": 1911},
@@ -27,30 +28,44 @@
     "permanentNumber": [
         {
             "no": 9,
+            "teamColor": "#006266",
+            "pic": "reggieJackson.jpg",
             "name": "Reggie Jackson"
         },
         {
             "no": 24,
+            "teamColor": "#006266",
+            "pic": "rickeyHenderson.jpg",
             "name": "Rickey Henderson"
         },
         {
             "no": 27,
+            "teamColor": "#006266",
+            "pic": "catfishHunter.jpg",
             "name": "Catfish Hunter"
         },
         {
             "no": 34,
+            "teamColor": "#006266",
+            "pic": "rollieFingers.jpg",
             "name": "Rollie Fingers"
         },
         {
             "no": 34,
+            "teamColor": "#006266",
+            "pic": "daveStewart.jpg",
             "name": "Dave Stewart"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 43,
+            "teamColor": "#006266",
+            "pic": "dennisEckersley.jpg",
             "name": "Dennis Eckersley"
         }
     ]

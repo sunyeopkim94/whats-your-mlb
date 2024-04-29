@@ -6,6 +6,7 @@
         {"city": "Arlington"}
     ],
     "field": "Globe Life Field",
+    "fieldImg": "globeLifeField.png",
     "worldseries": [
         {"year": 2023}
     ],
@@ -15,26 +16,38 @@
     "permanentNumber": [
         {
             "no": 7,
+            "teamColor": "#1e3799",
+            "pic": "ivanRodriguez.jpg",
             "name": "Ivan Rodriguez"
         },
         {
             "no": 10,
+            "teamColor": "#1e3799",
+            "pic": "michaelYoung.jpg",
             "name": "Michael Young"
         },
         {
             "no": 26,
+            "teamColor": "#1e3799",
+            "pic": "johnnyOates.jpg",
             "name": "Johnny Oates"
         },
         {
             "no": 29,
+            "teamColor": "#1e3799",
+            "pic": "adrianBeltre.webp",
             "name": "Adrian Beltre"
         },
         {
             "no": 34,
+            "teamColor": "#1e3799",
+            "pic": "nolanRyan.jpg",
             "name": "Nolan Ryan"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

@@ -6,6 +6,7 @@
         {"city": "St. Petersburg"}
     ],
     "field": "Tropicana Field",
+    "fieldImg": "tropicanaField.jpeg",
     "worldseries": [],
     "logo": "rays.svg",
     "keyword": "쥐가오리",
@@ -13,14 +14,20 @@
     "permanentNumber": [
         {
             "no": 12,
+            "teamColor": "#0a3d62",
+            "pic": "wadeBoggs.jpg",
             "name": "Wade Boggs"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 66,
+            "teamColor": "#0a3d62",
+            "pic": "donZimmer.webp",
             "name": "Don Zimmer"
         }
     ]

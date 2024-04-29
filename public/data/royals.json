@@ -6,6 +6,7 @@
         {"city": "Kansas City"}
     ],
     "field": "Kauffman Stadium",
+    "fieldImg": "kauffmanStadium.jpg",
     "worldseries": [
         {"year": 1985},
         {"year": 2015}
@@ -16,18 +17,26 @@
     "permanentNumber": [
         {
             "no": 5,
+            "teamColor": "#2980b9",
+            "pic": "georgeBrett.webp",
             "name": "George Brett"
         },
         {
             "no": 10,
+            "teamColor": "#2980b9",
+            "pic": "dickHowser.jpg",
             "name": "Dick Howser"
         },
         {
             "no": 20,
+            "teamColor": "#2980b9",
+            "pic": "frankWhite.jpg",
             "name": "Frank White"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

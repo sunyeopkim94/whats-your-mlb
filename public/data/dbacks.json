@@ -6,6 +6,7 @@
         {"city": "Phoenix"}
     ],
     "field": "Chase Field",
+    "fieldImg": "chaseField.png",
     "worldseries": [
         {"year": 2001}
     ],
@@ -15,14 +16,20 @@
     "permanentNumber": [
         {
             "no": 20,
+            "teamColor": "#b71540",
+            "pic": "luisGonzalez.jpg",
             "name": "Luis Gonzalez"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 51,
+            "teamColor": "#b71540",
+            "pic": "randyJohnson.jpg",
             "name": "Randy Johnson"
         }
     ]

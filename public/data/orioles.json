@@ -8,6 +8,7 @@
         {"city": "Baltimore"}
     ],
     "field": "Oriole Park at Camden Yards",
+    "fieldImg": "camdenYards.jpg",
     "worldseries": [
         {"year": 1966},
         {"year": 1970},
@@ -19,30 +20,44 @@
     "permanentNumber": [
         {
             "no": 4,
+            "teamColor": "#e15f41",
+            "pic": "earlWeaver.webp",
             "name": "Earl Weaver"
         },
         {
             "no": 5,
+            "teamColor": "#e15f41",
+            "pic": "brooksRobinson.jpg",
             "name": "Brooks Robinson"
         },
         {
             "no": 8,
+            "teamColor": "#e15f41",
+            "pic": "calRipkenJr.jpg",
             "name": "Cal Ripken Jr."
         },
         {
             "no": 20,
+            "teamColor": "#e15f41",
+            "pic": "frankRobinson_orioles.webp",
             "name": "Frank Robinson"
         },
         {
             "no": 22,
+            "teamColor": "#e15f41",
+            "pic": "jimPalmer.jpg",
             "name": "Jim Palmer"
         },
         {
             "no": 33,
+            "teamColor": "#e15f41",
+            "pic": "eddieMurray.jpg",
             "name": "Eddie Murray"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

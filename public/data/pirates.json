@@ -6,6 +6,7 @@
         {"city": "Pittsburgh"}
     ],
     "field": "PNC Park",
+    "fieldImg": "pNCPark.jpg",
     "worldseries": [
         {"year": 1909},
         {"year": 1925},
@@ -19,42 +20,62 @@
     "permanentNumber": [
         {
             "no": 1,
+            "teamColor": "#222",
+            "pic": "billyMeyer.jpg",
             "name": "Billy Meyer"
         },
         {
             "no": 4,
+            "teamColor": "#222",
+            "pic": "ralphKiner.jpg",
             "name": "Ralph Kiner"
         },
         {
             "no": 8,
+            "teamColor": "#222",
+            "pic": "willieStargell.jpg",
             "name": "Willie Stargell"
         },
         {
             "no": 9,
+            "teamColor": "#222",
+            "pic": "billMazeroski.jpg",
             "name": "Bill Mazeroski"
         },
         {
             "no": 11,
+            "teamColor": "#222",
+            "pic": "paulWaner.jpg",
             "name": "Paul Waner"
         },
         {
             "no": 20,
+            "teamColor": "#222",
+            "pic": "pieTraynor.jpg",
             "name": "Pie Traynor"
         },
         {
             "no": 21,
+            "teamColor": "#222",
+            "pic": "robertoClemente.jpg",
             "name": "Roberto Clemente"
         },
         {
             "no": 33,
+            "teamColor": "#222",
+            "pic": "honusWagner.webp",
             "name": "Honus Wagner"
         },
         {
             "no": 40,
+            "teamColor": "#222",
+            "pic": "dannyMurtaugh.jpg",
             "name": "Danny Murtaugh"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]

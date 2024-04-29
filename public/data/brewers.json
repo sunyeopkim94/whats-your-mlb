@@ -7,6 +7,7 @@
         {"city": "Milwaukee"}
     ],
     "field": "American Family Field",
+    "fieldImg": "americanFamilyField.jpg",
     "worldseries": [],
     "logo": "brewers.svg",
     "keyword": "맥주네",
@@ -14,26 +15,38 @@
     "permanentNumber": [
         {
             "no": 1,
+            "teamColor": "#273c75",
+            "pic": "budSelig.jpg",
             "name": "Bud Selig"
         },
         {
             "no": 4,
+            "teamColor": "#273c75",
+            "pic": "paulMolitor.jpg",
             "name": "Paul Molitor"
         },
         {
             "no": 19,
+            "teamColor": "#273c75",
+            "pic": "robinYount.jpg",
             "name": "Robin Yount"
         },
         {
             "no": 34,
+            "teamColor": "#273c75",
+            "pic": "rollieFingers_brewers.jpg",
             "name": "Rollie Fingers"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 44,
+            "teamColor": "#273c75",
+            "pic": "hankAaron_brewers.jpg",
             "name": "Hank Aaron"
         }
     ]

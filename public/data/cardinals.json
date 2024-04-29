@@ -6,6 +6,7 @@
         {"city": "St. Louis"}
     ],
     "field": "Busch Stadium",
+    "fieldImg": "buschStadium.png",
     "worldseries": [
         {"year": 1926},
         {"year": 1931},
@@ -25,58 +26,86 @@
     "permanentNumber": [
         {
             "no": 1,
+            "teamColor": "#c0392b",
+            "pic": "ozzieSmith.jpg",
             "name": "Ozzie Smith"
         },
         {
             "no": 2,
+            "teamColor": "#c0392b",
+            "pic": "redSchoendienst.webp",
             "name": "Red Schoendienst"
         },
         {
             "no": 6,
+            "teamColor": "#c0392b",
+            "pic": "stanMusial.jpg",
             "name": "Stan Musial"
         },
         {
             "no": 9,
+            "teamColor": "#c0392b",
+            "pic": "enosSlaughter.jpg",
             "name": "Enos Slaughter"
         },
         {
             "no": 10,
+            "teamColor": "#c0392b",
+            "pic": "tonyLaRussa.jpg",
             "name": "Tony La Russa"
         },
         {
             "no": 14,
+            "teamColor": "#c0392b",
+            "pic": "kenBoyer.webp",
             "name": "Ken Boyer"
         },
         {
             "no": 17,
+            "teamColor": "#c0392b",
+            "pic": "dizzyDean.webp",
             "name": "Dizzy Dean"
         },
         {
             "no": 20,
+            "teamColor": "#c0392b",
+            "pic": "louBrock.webp",
             "name": "Lou Brock"
         },
         {
             "no": 23,
+            "teamColor": "#c0392b",
+            "pic": "tedSimmons.jpg",
             "name": "Ted Simmons"
         },
         {
             "no": 24,
+            "teamColor": "#c0392b",
+            "pic": "whiteyHerzog.jpg",
             "name": "Whitey Herzog"
         },
         {
             "no": 42,
+            "teamColor": "#c0392b",
+            "pic": "bruceSutter.jpg",
             "name": "Bruce Sutter"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 45,
+            "teamColor": "#c0392b",
+            "pic": "bobGibson.jpg",
             "name": "Bob Gibson"
         },
         {
             "no": 85,
+            "teamColor": "#c0392b",
+            "pic": "jackBuck.jpg",
             "name": "Jack Buck"
         }
     ]

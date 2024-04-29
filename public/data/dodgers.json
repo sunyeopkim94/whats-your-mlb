@@ -7,6 +7,7 @@
         {"city": "Los Angeles"}
     ],
     "field": "Dodger Stadium",
+    "fieldImg": "dodgerStadium.png",
     "worldseries": [
         {"year": 1955},
         {"year": 1959},
@@ -22,50 +23,74 @@
     "permanentNumber": [
         {
             "no": 1,
+            "teamColor": "#2980b9",
+            "pic": "peeWeeReese.webp",
             "name": "Pee Wee Reese"
         },
         {
             "no": 2,
+            "teamColor": "#2980b9",
+            "pic": "tommyLasorda.jpg",
             "name": "Tommy Lasorda"
         },
         {
             "no": 4,
+            "teamColor": "#2980b9",
+            "pic": "dukeSnider.jpg",
             "name": "Duke Snider"
         },
         {
             "no": 14,
+            "teamColor": "#2980b9",
+            "pic": "gilHodges.jpg",
             "name": "Gil Hodges"
         },
         {
             "no": 19,
+            "teamColor": "#2980b9",
+            "pic": "jimGilliam.jpg",
             "name": "Jim Gilliam"
         },
         {
             "no": 20,
+            "teamColor": "#2980b9",
+            "pic": "donSutton.jpg",
             "name": "Don Sutton"
         },
         {
             "no": 24,
+            "teamColor": "#2980b9",
+            "pic": "walterAlston.webp",
             "name": "Walter Alston"
         },
         {
             "no": 32,
+            "teamColor": "#2980b9",
+            "pic": "sandyKoufax.jpg",
             "name": "Sandy Koufax"
         },
         {
             "no": 34,
+            "teamColor": "#2980b9",
+            "pic": "fernandoValenzuela.jpg",
             "name": "Fernando Valenzuela"
         },
         {
             "no": 39,
+            "teamColor": "#2980b9",
+            "pic": "royCampanella.jpg",
             "name": "Roy Campanella"
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         },
         {
             "no": 53,
+            "teamColor": "#2980b9",
+            "pic": "donDrysdale.jpg",
             "name": "Don Drysdale"
         }
     ]

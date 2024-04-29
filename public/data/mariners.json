@@ -6,6 +6,7 @@
         {"city": "Seattle"}
     ],
     "field": "T-Mobile Park",
+    "fieldImg": "tMobilePark.jpg",
     "worldseries": [],
     "logo": "mariners.svg",
     "keyword": "뱃사람들",
@@ -13,14 +14,20 @@
     "permanentNumber": [
         {
             "no": 11,
+            "teamColor": "#16a085",
+            "pic": "edgarMartínez.webp",
             "name": "Edgar Martínez"
         },
         {
             "no": 24,
+            "teamColor": "#16a085",
+            "pic": "kenGriffeyJr.jpg",
             "name": "Ken Griffey Jr."
         },
         {
             "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
             "name": "Jackie Robinson"
         }
     ]
