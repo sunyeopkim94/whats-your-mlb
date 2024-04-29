@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import { useLocation, useParams } from "react-router-dom";
+import { Link, Route, Switch, useLocation, useParams } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -8,6 +8,7 @@ const Container = styled.div`
     max-width: 480px;
     margin: 0 auto;
     text-align: center;
+    position: relative;
 `;
 
 const Logo = styled.img`
@@ -112,8 +113,22 @@ const NumberContainer = styled.li`
     }
     p {
         font-size: 14px;
-        font-weight: 900;
     }
+`;
+
+const Btn = styled.button`
+    width: 60px;
+    height: 60px;
+    background-color: ${(props) => props.theme.cardBgColor};
+    color: #0be881;
+    font-size: 18px;
+    font-weight: 900;
+    border: 1px solid #0be881;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 4;
+    left: 20px;
+    top: 20px;
 `;
 
 interface Params {
@@ -129,6 +144,7 @@ interface Hometown {
 }
 
 interface Worldseries {
+    no: number;
     year: number;
 }
 
@@ -159,7 +175,6 @@ function Team(){
     useEffect(() => {
         (async () => {
             const team =await (await fetch(`./data/${teamId}.json`)).json();
-            console.log(team);
             setTeam(team);
         })();
     },[]);
@@ -167,7 +182,11 @@ function Team(){
         <Container>
             <Helmet>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" />
+                <title>{team?.id}</title>
             </Helmet>
+            <Link to="/">
+                <Btn>👈</Btn>
+            </Link>
             <Logo src={`./img/teams/${team?.logo}`} alt={team?.name} />
             <Keyword>'{team?.keyword}'</Keyword>
             <Name>{team?.name}</Name>
@@ -201,9 +220,11 @@ function Team(){
                 <WorldSeries>
                     {team?.worldseries.map((item) => {
                         return (
-                            <li key={item.year}>
+                            <>
+                                {item.year ? <li key={item.no}>
                                 <span>{item.year}</span>
-                            </li>
+                                </li> : <span>Nothing Happened...</span>}
+                            </>
                         )
                     })}
                 </WorldSeries>

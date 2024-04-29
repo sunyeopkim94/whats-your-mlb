@@ -8,11 +8,11 @@
     "field": "Minute Maid Park",
     "fieldImg": "minuteMaidPark.jpg",
     "worldseries": [
-        {"year": 2017},
-        {"year": 2022}
+        {"no": 1, "year": 2017},
+        {"no": 2, "year": 2022}
     ],
     "logo": "astros.svg",
-    "keyword": "별들",
+    "keyword": "드디어 우승! 그런데 휴지통은 왜 두드리는거니?...",
     "history": "구단의 연고지 텍사스 주는 오직 하나의 별이라는 상징 역시 유명하다. 그래서 애스트로'스' (별'들') 이지만 팀 로고와 모자에는 단 하나의 별만 존재하고 있다. 2010년대 중반부터 도약기를 거쳐 2010년대 후반과 2020년대 초반에는 리그에서 손꼽히는 최정상팀으로 자리 잡았다.",
     "permanentNumber": [
         {

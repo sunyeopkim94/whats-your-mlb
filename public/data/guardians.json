@@ -9,11 +9,11 @@
     "field": "Progressive Field",
     "fieldImg": "progressiveField.jpg",
     "worldseries": [
-        {"year": 1920},
-        {"year": 1948}
+        {"no": 1, "year": 1920},
+        {"no": 2, "year": 1948}
     ],
     "logo": "guardians.svg",
-    "keyword": "인디언에서 수호자로",
+    "keyword": "추신수때 봤다면 인디언즈가 더 친숙할지도",
     "history": "1954년 월드 시리즈 패배 이후 다시 플레이오프 진출하는데에만 41년이 걸린 어둠의 역사가 있었다. 그러다 1990년대 후반, 엄청난 타선을 구축하여 전성기를 맞았다. 하지만 2006~2012년까지 추신수가 활약하던 시기의 성적은 바닥을 기었기 때문에 국내 팬들에게는 약체라는 인식이 강하게 박혔다.",
     "permanentNumber": [
         {

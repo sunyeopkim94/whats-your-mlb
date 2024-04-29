@@ -8,10 +8,10 @@
     "field": "Globe Life Field",
     "fieldImg": "globeLifeField.png",
     "worldseries": [
-        {"year": 2023}
+        {"no": 1, "year": 2023}
     ],
     "logo": "rangers.svg",
-    "keyword": "자경단",
+    "keyword": "택사스팬 여러분 최고의 선발투수를 영입했습니다.",
     "history": "텍사스 주의 알링턴 그리고 댈러스-포트워스에 거점을 두고 있다. 1990년대 후반부터 본격적으로 전성기를 누렸으며 마침내 2023년 오랜 비원이던 월드 시리즈 우승을 창단 63번째 시즌에 성취하고 우승 반지를 거머쥐었다.",
     "permanentNumber": [
         {

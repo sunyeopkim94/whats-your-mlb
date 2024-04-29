@@ -82,7 +82,6 @@ function Teams({toggleTheme, isDark}:ITeamsProps){
             const json = await res.json();
             setNl(json.slice(0, 15));
             setAl(json.slice(15, 30));
-            console.log(json);
         })();
     },[]);
     const onClickNl = (e: any) => {
@@ -97,6 +96,7 @@ function Teams({toggleTheme, isDark}:ITeamsProps){
         <Container>
             <Helmet>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" />
+                <title>What's Your MLB?</title>
             </Helmet>
             <Header>
                 <Title>What's Your MLB?</Title>

@@ -8,12 +8,12 @@
     "field": "Target Field",
     "fieldImg": "targetField.jpeg",
     "worldseries": [
-        {"year": 1924},
-        {"year": 1987},
-        {"year": 1991}
+        {"no": 1, "year": 1924},
+        {"no": 2, "year": 1987},
+        {"no": 3, "year": 1991}
     ],
     "logo": "twins.svg",
-    "keyword": "쌍둥이",
+    "keyword": "모든 쌍둥이팀은 하나다?",
     "history": "팀명인 트윈스는 미니애폴리스와 세인트 폴이 합쳐진 쌍둥이 도시라는 것에서 모티브를 얻은 것이다. T와 C를 겹쳐서 만든 캡 로고 역시 Twin Cities를 뜻한다. 우승한지 오래되었고, 물도 자주 먹는데다 성적이 들쭉날쭉한 점에서 한국의 쌍둥이 팀과 비슷한 느낌도 있다.",
     "permanentNumber": [
         {

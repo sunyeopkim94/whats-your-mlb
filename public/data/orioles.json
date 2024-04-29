@@ -10,9 +10,9 @@
     "field": "Oriole Park at Camden Yards",
     "fieldImg": "camdenYards.jpg",
     "worldseries": [
-        {"year": 1966},
-        {"year": 1970},
-        {"year": 1983}
+        {"no": 1, "year": 1966},
+        {"no": 2, "year": 1970},
+        {"no": 3, "year": 1983}
     ],
     "logo": "orioles.svg",
     "keyword": "꾀꼬리",
