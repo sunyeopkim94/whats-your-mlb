@@ -1,0 +1,152 @@
+[
+    {
+        "id": "braves",
+        "name": "Atlanta Braves",
+        "logo": "braves.svg"
+    },
+    {
+        "id": "marlins",
+        "name": "Miami Marlins",
+        "logo": "marlins.svg"
+    },
+    {
+        "id": "mets",
+        "name": "New York Mets",
+        "logo": "mets.svg"
+    },
+    {
+        "id": "phillies",
+        "name": "Philadelphia Phillies",
+        "logo": "phillies.svg"
+    },
+    {
+        "id": "nationals",
+        "name": "Washington Nationals",
+        "logo": "nationals.svg"
+    },
+    {
+        "id": "cubs",
+        "name": "Chicago Cubs",
+        "logo": "cubs.svg"
+    },
+    {
+        "id": "reds",
+        "name": "Cincinnati Reds",
+        "logo": "reds.svg"
+    },
+    {
+        "id": "brewers",
+        "name": "Milwaukee Brewers",
+        "logo": "brewers.svg"
+    },
+    {
+        "id": "pirates",
+        "name": "Pittsburgh Pirates",
+        "logo": "pirates.svg"
+    },
+    {
+        "id": "cardinals",
+        "name": "St. Louis Cardinals",
+        "logo": "cardinals.svg"
+    },
+    {
+        "id": "dbacks",
+        "name": "Arizona Diamondbacks",
+        "logo": "dbacks.svg"
+    },
+    {
+        "id": "rockies",
+        "name": "Colorado Rockies",
+        "logo": "rockies.svg"
+    },
+    {
+        "id": "dodgers",
+        "name": "Los Angeles Dodgers",
+        "logo": "dodgers.svg"
+    },
+    {
+        "id": "padres",
+        "name": "San Diego Padres",
+        "logo": "padres.svg"
+    },
+    {
+        "id": "giants",
+        "name": "San Francisco Giants",
+        "logo": "giants.svg"
+    },
+    {
+        "id": "orioles",
+        "name": "Baltimore Orioles",
+        "logo": "orioles.svg"
+    },
+    {
+        "id": "redsox",
+        "name": "Boston Red Sox",
+        "logo": "redsox.svg"
+    },
+    {
+        "id": "yankees",
+        "name": "New York Yankees",
+        "logo": "yankees.svg"
+    },
+    {
+        "id": "rays",
+        "name": "Tampa Bay Rays",
+        "logo": "rays.svg"
+    },
+    {
+        "id": "bluejays",
+        "name": "Toronto Blue Jays",
+        "logo": "bluejays.svg"
+    },
+    {
+        "id": "whitesox",
+        "name": "Chicago White Sox",
+        "logo": "whitesox.svg"
+    },
+    {
+        "id": "guardians",
+        "name": "Cleveland Guardians",
+        "logo": "guardians.svg"
+    },
+    {
+        "id": "tigers",
+        "name": "Detroit Tigers",
+        "logo": "tigers.svg"
+    },
+    {
+        "id": "royals",
+        "name": "Kansas City Royals",
+        "logo": "royals.svg"
+    },
+    {
+        "id": "twins",
+        "name": "Minnesota Twins",
+        "logo": "twins.svg"
+    },
+    {
+        "id": "astros",
+        "name": "Houston Astros",
+        "logo": "astros.svg"
+    },
+    {
+        "id": "angels",
+        "name": "Los Angeles Angels",
+        "logo": "angels.svg"
+    },
+    {
+        "id": "athletics",
+        "name": "Oakland Athletics",
+        "logo": "athletics.svg"
+    },
+    {
+        "id": "mariners",
+        "name": "Seattle Mariners",
+        "logo": "mariners.svg"
+    },
+    {
+        "id": "rangers",
+        "name": "Texas Rangers",
+        "logo": "rangers.svg"
+    }
+]

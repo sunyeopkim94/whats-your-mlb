@@ -1,0 +1,188 @@
+{
+    "id":"yankees",
+    "name": "New York Yankees",
+    "since": 1903,
+    "hometown": [
+        {"no": 1, "city": "New York"}
+    ],
+    "field": "Yankee Stadium",
+    "fieldImg": "yankeeStadium.jpg",
+    "worldseries": [
+        {"no": 1, "year": 1923},
+        {"no": 2, "year": 1927},
+        {"no": 3, "year": 1928},
+        {"no": 4, "year": 1932},
+        {"no": 5, "year": 1936},
+        {"no": 6, "year": 1937},
+        {"no": 7, "year": 1938},
+        {"no": 8, "year": 1939},
+        {"no": 9, "year": 1941},
+        {"no": 10, "year": 1943},
+        {"no": 11, "year": 1947},
+        {"no": 12, "year": 1949},
+        {"no": 13, "year": 1950},
+        {"no": 14, "year": 1951},
+        {"no": 15, "year": 1952},
+        {"no": 16, "year": 1953},
+        {"no": 17, "year": 1956},
+        {"no": 18, "year": 1958},
+        {"no": 19, "year": 1961},
+        {"no": 20, "year": 1962},
+        {"no": 21, "year": 1977},
+        {"no": 22, "year": 1978},
+        {"no": 23, "year": 1996},
+        {"no": 24, "year": 1998},
+        {"no": 25, "year": 1999},
+        {"no": 26, "year": 2000},
+        {"no": 27, "year": 2009}
+    ],
+    "logo": "yankees.svg",
+    "keyword": "브롱스 폭격기",
+    "history": "팀명인 양키스는 뉴욕에 네덜란드계 이민자가 많은 데서 유래되었다. 월드 시리즈 우승 27회, 아메리칸 리그 우승 40회, 아메리칸 리그 동부지구 우승 20회, MVP 22회 등의 최다 기록 보유팀으로, 우승 횟수 27회는 2위(세인트루이스 카디널스의 11회)와 격차가 상당한 최다 기록이고 미국 4대 스포츠를 통틀어도 최다 기록이다. 성적에 걸맞게 그 인기도 세계구급이며, 악의 제국(The Evil Empire)이라는 별명을 가지고 있을 만큼 투자에도 적극적인 팀이다.",
+    "permanentNumber": [
+        {
+            "no": 1,
+            "teamColor": "#273c75",
+            "pic": "billyMartin.jpg",
+            "name": "Billy Martin"
+        },
+        {
+            "no": 2,
+            "teamColor": "#273c75",
+            "pic": "derekJeter.webp",
+            "name": "Derek Jeter"
+        },
+        {
+            "no": 3,
+            "teamColor": "#273c75",
+            "pic": "babeRuth.webp",
+            "name": "Babe Ruth"
+        },
+        {
+            "no": 4,
+            "teamColor": "#273c75",
+            "pic": "louGehrig.jpg",
+            "name": "Lou Gehrig"
+        },
+        {
+            "no": 5,
+            "teamColor": "#273c75",
+            "pic": "joeDiMaggio.jpg",
+            "name": "Joe DiMaggio"
+        },
+        {
+            "no": 6,
+            "teamColor": "#273c75",
+            "pic": "joeTorre.jpg",
+            "name": "Joe Torre"
+        },
+        {
+            "no": 7,
+            "teamColor": "#273c75",
+            "pic": "mickeyMantle.webp",
+            "name": "Mickey Mantle"
+        },
+        {
+            "no": 8,
+            "teamColor": "#273c75",
+            "pic": "billDickey.jpg",
+            "name": "Bill Dickey"
+        },
+        {
+            "no": 8,
+            "teamColor": "#273c75",
+            "pic": "yogiBerra.webp",
+            "name": "Yogi Berra"
+        },
+        {
+            "no": 9,
+            "teamColor": "#273c75",
+            "pic": "rogerMaris.jpg",
+            "name": "Roger Maris"
+        },
+        {
+            "no": 10,
+            "teamColor": "#273c75",
+            "pic": "philRizzuto.jpg",
+            "name": "Phil Rizzuto"
+        },
+        {
+            "no": 15,
+            "teamColor": "#273c75",
+            "pic": "thurmanMunson.jpg",
+            "name": "Thurman Munson"
+        },
+        {
+            "no": 16,
+            "teamColor": "#273c75",
+            "pic": "whiteyFord.jpg",
+            "name": "Whitey Ford"
+        },
+        {
+            "no": 20,
+            "teamColor": "#273c75",
+            "pic": "jorgePosada.jpg",
+            "name": "Jorge Posada"
+        },
+        {
+            "no": 21,
+            "teamColor": "#273c75",
+            "pic": "paulONeill.jpg",
+            "name": "Paul O'Neill"
+        },
+        {
+            "no": 23,
+            "teamColor": "#273c75",
+            "pic": "donMattingly.webp",
+            "name": "Don Mattingly"
+        },
+        {
+            "no": 32,
+            "teamColor": "#273c75",
+            "pic": "elstonHoward.jpg",
+            "name": "Elston Howard"
+        },
+        {
+            "no": 37,
+            "teamColor": "#273c75",
+            "pic": "caseyStengel.webp",
+            "name": "Casey Stengel"
+        },
+        {
+            "no": 42,
+            "teamColor": "#273c75",
+            "pic": "marianoRivera.webp",
+            "name": "Mariano Rivera"
+        },
+        {
+            "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
+            "name": "Jackie Robinson"
+        },
+        {
+            "no": 44,
+            "teamColor": "#273c75",
+            "pic": "reggieJackson_yakees.png",
+            "name": "Reggie Jackson"
+        },
+        {
+            "no": 46,
+            "teamColor": "#273c75",
+            "pic": "andyPettitte.jpg",
+            "name": "Andy Pettitte"
+        },
+        {
+            "no": 49,
+            "teamColor": "#273c75",
+            "pic": "ronGuidry.jpg",
+            "name": "Ron Guidry"
+        },
+        {
+            "no": 51,
+            "teamColor": "#273c75",
+            "pic": "bernieWilliams.webp",
+            "name": "Bernie Williams"
+        }
+    ]
+}
