@@ -1,0 +1,80 @@
+{
+    "id":"twins",
+    "name": "Minnesota Twins",
+    "since": 1901,
+    "hometown": [
+        {"no": 1, "city": "Minneapolis"}
+    ],
+    "field": "Target Field",
+    "fieldImg": "targetField.jpeg",
+    "worldseries": [
+        {"no": 1, "year": 1924},
+        {"no": 2, "year": 1987},
+        {"no": 3, "year": 1991}
+    ],
+    "logo": "twins.svg",
+    "keyword": "쌍둥이",
+    "history": "팀명인 트윈스는 미니애폴리스와 세인트 폴이 합쳐진 쌍둥이 도시라는 것에서 모티브를 얻은 것이다. T와 C를 겹쳐서 만든 캡 로고 역시 Twin Cities를 뜻한다. 우승한지 오래되었고, 물도 자주 먹는데다 성적이 들쭉날쭉한 점에서 한국의 쌍둥이 팀과 비슷한 느낌도 있다.",
+    "permanentNumber": [
+        {
+            "no": 3,
+            "teamColor": "#c23616",
+            "pic": "harmonKillebrew.jpg",
+            "name": "Harmon Killebrew"
+        },
+        {
+            "no": 6,
+            "teamColor": "#c23616",
+            "pic": "tonyOliva.jpg",
+            "name": "Tony Oliva"
+        },
+        {
+            "no": 7,
+            "teamColor": "#c23616",
+            "pic": "joeMauer.jpg",
+            "name": "Joe Mauer"
+        },
+        {
+            "no": 10,
+            "teamColor": "#c23616",
+            "pic": "tomKelly.jpg",
+            "name": "Tom Kelly"
+        },
+        {
+            "no": 14,
+            "teamColor": "#c23616",
+            "pic": "kentHrbek.webp",
+            "name": "Kent Hrbek"
+        },
+        {
+            "no": 28,
+            "teamColor": "#c23616",
+            "pic": "bertBlyleven.jpg",
+            "name": "Bert Blyleven"
+        },
+        {
+            "no": 29,
+            "teamColor": "#c23616",
+            "pic": "rodCarew_twins.jpg",
+            "name": "Rod Carew"
+        },
+        {
+            "no": 34,
+            "teamColor": "#c23616",
+            "pic": "kirbyPuckett.webp",
+            "name": "Kirby Puckett"
+        },
+        {
+            "no": 36,
+            "teamColor": "#c23616",
+            "pic": "jimKaat.jpg",
+            "name": "Jim Kaat"
+        },
+        {
+            "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
+            "name": "Jackie Robinson"
+        }
+    ]
+}

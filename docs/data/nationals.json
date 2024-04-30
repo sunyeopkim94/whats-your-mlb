@@ -1,0 +1,55 @@
+{
+    "id":"nationals",
+    "name": "Washington Nationals",
+    "since": 1969,
+    "hometown": [
+        {"no": 1, "city": "Montreal"},
+        {"no": 2, "city": "Washington D.C."}
+    ],
+    "field": "Nationals Park",
+    "fieldImg": "nationalsPark.jpg",
+    "worldseries": [
+        {"no": 1, "year": 2019}
+    ],
+    "logo": "nationals.svg",
+    "keyword": "국민",
+    "history": "1969년 리그 확장의 일환으로 캔자스시티 로열스, 샌디에이고 파드리스, 밀워키 브루어스와 함께 몬트리올 엑스포스로 메이저 리그에 참여했고, 2005년 워싱턴으로 이전하였다. 워싱턴으로 연고지를 옮긴 후 3~4년 바닥을 찍으면서 얻은 탑 유망주들과 여유로워진 재정을 통한 적절한 영입으로 2010년대 안정적으로 상위권 성적을 찍는 구단이 되었고, 2019년 창단 첫 월드시리즈 우승을 차지했다. 다만 현재는 팀 전력 유지에 실패했고, 스티븐 스트라스버그, 패트릭 코빈 두 선발 투수가 먹튀가 되며 예전처럼 다시 유망주들을 수집함과 동시에 천천히 리빌딩을 시작하고 있는 중이다.",
+    "permanentNumber": [
+        {
+            "no": 8,
+            "teamColor": "#b71540",
+            "pic": "garyCarter.webp",
+            "name": "Gary Carter"
+        },
+        {
+            "no": 10,
+            "teamColor": "#b71540",
+            "pic": "andreDawson.jpg",
+            "name": "Andre Dawson"
+        },
+        {
+            "no": 10,
+            "teamColor": "#b71540",
+            "pic": "rustyStaub.jpg",
+            "name": "Rusty Staub"
+        },
+        {
+            "no": 11,
+            "teamColor": "#b71540",
+            "pic": "ryanZimmerman.jpg",
+            "name": "Ryan Zimmerman"
+        },
+        {
+            "no": 30,
+            "teamColor": "#b71540",
+            "pic": "timRaines.jpg",
+            "name": "Tim Raines"
+        },
+        {
+            "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
+            "name": "Jackie Robinson"
+        }
+    ]
+}

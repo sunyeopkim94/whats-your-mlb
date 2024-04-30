@@ -1,0 +1,95 @@
+{
+    "id":"braves",
+    "name": "Atlanta Braves",
+    "since": 1871,
+    "hometown": [
+        {"no": 1, "city": "Boston"},
+        {"no": 2, "city": "Milwaukee"},
+        {"no": 3, "city": "Atlanta"}
+    ],
+    "field": "Truist Park",
+    "fieldImg": "truistPark.png",
+    "worldseries": [
+        {"no": 1, "year": 1914},
+        {"no": 2, "year": 1957},
+        {"no": 3, "year": 1995},
+        {"no": 4, "year": 2021}
+    ],
+    "logo": "braves.svg",
+    "keyword": "용감한자",
+    "history": "메이저리그에서 가장 오래된 역사를 자랑하는 팀중에 하나인 애틀란타 브레이브스. 두 번의 연고 이전을 통해 총 세 곳의 연고지를 가졌던 구단인데, 재밌게도 그 세 도시(보스턴, 밀워키, 애틀랜타)에서 각각 월드시리즈 우승을 해본 유일한 팀이다. 예전엔 약팀이었지만, 1991년 시즌부터 본격적으로 강해지며 이후 2005년 시즌까지는 14시즌 연속 지구 우승을 할만큼 강팀이 되었다. 이 시기부터 전국적인 인기를 모았었고 현재진행형 강팀이 되었다. 역사가 오래된만큼 시카고 컵스, 로스앤젤레스 다저스, 샌프란시스코 자이언츠, 세인트루이스 카디널스에 이은 MLB 다섯 번째 팀 통산 1만승과 필라델피아 필리스에 이은 MLB 두 번째 팀 통산 1만패를 동시에 달성했다.",
+    "permanentNumber": [
+        {
+            "no": 3,
+            "teamColor": "#c23616",
+            "pic": "daleMurphy.jpg",
+            "name": "Dale Murphy"
+        },
+        {
+            "no": 6,
+            "teamColor": "#c23616",
+            "pic": "bobbyCox.jpg",
+            "name": "Bobby Cox"
+        },
+        {
+            "no": 10,
+            "teamColor": "#c23616",
+            "pic": "chipperJones.jpg",
+            "name": "Chipper Jones"
+        },
+        {
+            "no": 21,
+            "teamColor": "#c23616",
+            "pic": "warrenSpahn.jpg",
+            "name": "Warren Spahn"
+        },
+        {
+            "no": 25,
+            "teamColor": "#c23616",
+            "pic": "andruwJones.jpg",
+            "name": "Andruw Jones"
+        },
+        {
+            "no": 29,
+            "teamColor": "#c23616",
+            "pic": "johnSmoltz.jpg",
+            "name": "John Smoltz"
+        },
+        {
+            "no": 31,
+            "teamColor": "#c23616",
+            "pic": "gregMaddux.jpg",
+            "name": "Greg Maddux"
+        },
+        {
+            "no": 35,
+            "teamColor": "#c23616",
+            "pic": "philNiekro.jpg",
+            "name": "Phil Niekro"
+        },
+        {
+            "no": 41,
+            "teamColor": "#c23616",
+            "pic": "eddieMathews.jpg",
+            "name": "Eddie Mathews"
+        },
+        {
+            "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
+            "name": "Jackie Robinson"
+        },
+        {
+            "no": 44,
+            "teamColor": "#c23616",
+            "pic": "hankAaron.jpg",
+            "name": "Hank Aaron"
+        },
+        {
+            "no": 47,
+            "teamColor": "#c23616",
+            "pic": "tomGlavine.jpg",
+            "name": "Tom Glavine"
+        }
+    ]
+}

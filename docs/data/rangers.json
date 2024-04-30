@@ -1,0 +1,54 @@
+{
+    "id":"rangers",
+    "name": "Texas Rangers",
+    "since": 1961,
+    "hometown": [
+        {"no": 1, "city": "Arlington"}
+    ],
+    "field": "Globe Life Field",
+    "fieldImg": "globeLifeField.png",
+    "worldseries": [
+        {"no": 1, "year": 2023}
+    ],
+    "logo": "rangers.svg",
+    "keyword": "보안관",
+    "history": "텍사스 주의 알링턴 그리고 댈러스-포트워스에 거점을 두고 있다. 1990년대 후반부터 본격적으로 전성기를 누렸으며 마침내 2023년 오랜 비원이던 월드 시리즈 우승을 창단 63번째 시즌에 성취하고 우승 반지를 거머쥐었다.",
+    "permanentNumber": [
+        {
+            "no": 7,
+            "teamColor": "#1e3799",
+            "pic": "ivanRodriguez.jpg",
+            "name": "Ivan Rodriguez"
+        },
+        {
+            "no": 10,
+            "teamColor": "#1e3799",
+            "pic": "michaelYoung.jpg",
+            "name": "Michael Young"
+        },
+        {
+            "no": 26,
+            "teamColor": "#1e3799",
+            "pic": "johnnyOates.jpg",
+            "name": "Johnny Oates"
+        },
+        {
+            "no": 29,
+            "teamColor": "#1e3799",
+            "pic": "adrianBeltre.webp",
+            "name": "Adrian Beltre"
+        },
+        {
+            "no": 34,
+            "teamColor": "#1e3799",
+            "pic": "nolanRyan.jpg",
+            "name": "Nolan Ryan"
+        },
+        {
+            "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
+            "name": "Jackie Robinson"
+        }
+    ]
+}

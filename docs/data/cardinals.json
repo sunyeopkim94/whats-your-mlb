@@ -1,0 +1,112 @@
+{
+    "id":"cardinals",
+    "name": "St. Louis Cardinals",
+    "since": 1882,
+    "hometown": [
+        {"no": 1, "city": "St. Louis"}
+    ],
+    "field": "Busch Stadium",
+    "fieldImg": "buschStadium.png",
+    "worldseries": [
+        {"no": 1, "year": 1926},
+        {"no": 2, "year": 1931},
+        {"no": 3, "year": 1934},
+        {"no": 4, "year": 1942},
+        {"no": 5, "year": 1944},
+        {"no": 6, "year": 1946},
+        {"no": 7, "year": 1964},
+        {"no": 8, "year": 1967},
+        {"no": 9, "year": 1982},
+        {"no": 10, "year": 2006},
+        {"no": 11, "year": 2011}
+    ],
+    "logo": "cardinals.svg",
+    "keyword": "홍관조",
+    "history": "내셔널 리그 최고의 명문 구단 중 하나로, 내셔널 리그 소속 구단 중 월드 시리즈 최다 우승팀이자 전체로도 뉴욕 양키스 다음으로 많다. 야구 팬들은 카디널스의 화려한 가을야구 역사에 경의를 표하며 가을 좀비라는 별명을 붙였다. 전통의 강호답게 로저스 혼스비, 디지 딘, 스탠 뮤지얼, 밥 깁슨, 아지 스미스, 알버트 푸홀스 등 전설적인 대스타들을 배출했는데, 이들이 특정 시기에 몰려 있지 않고 20세기 초부터 현재까지 꾸준히 등장했다는 것이 카디널스의 육성 능력을 보여준다고 할 수 있다. 뿐만 아니라 20회의 내셔널 리그 MVP를 배출했는데, 이는 내셔널 리그 1위의 기록이다.",
+    "permanentNumber": [
+        {
+            "no": 1,
+            "teamColor": "#c0392b",
+            "pic": "ozzieSmith.jpg",
+            "name": "Ozzie Smith"
+        },
+        {
+            "no": 2,
+            "teamColor": "#c0392b",
+            "pic": "redSchoendienst.webp",
+            "name": "Red Schoendienst"
+        },
+        {
+            "no": 6,
+            "teamColor": "#c0392b",
+            "pic": "stanMusial.jpg",
+            "name": "Stan Musial"
+        },
+        {
+            "no": 9,
+            "teamColor": "#c0392b",
+            "pic": "enosSlaughter.jpg",
+            "name": "Enos Slaughter"
+        },
+        {
+            "no": 10,
+            "teamColor": "#c0392b",
+            "pic": "tonyLaRussa.jpg",
+            "name": "Tony La Russa"
+        },
+        {
+            "no": 14,
+            "teamColor": "#c0392b",
+            "pic": "kenBoyer.webp",
+            "name": "Ken Boyer"
+        },
+        {
+            "no": 17,
+            "teamColor": "#c0392b",
+            "pic": "dizzyDean.webp",
+            "name": "Dizzy Dean"
+        },
+        {
+            "no": 20,
+            "teamColor": "#c0392b",
+            "pic": "louBrock.webp",
+            "name": "Lou Brock"
+        },
+        {
+            "no": 23,
+            "teamColor": "#c0392b",
+            "pic": "tedSimmons.jpg",
+            "name": "Ted Simmons"
+        },
+        {
+            "no": 24,
+            "teamColor": "#c0392b",
+            "pic": "whiteyHerzog.jpg",
+            "name": "Whitey Herzog"
+        },
+        {
+            "no": 42,
+            "teamColor": "#c0392b",
+            "pic": "bruceSutter.jpg",
+            "name": "Bruce Sutter"
+        },
+        {
+            "no": 42,
+            "teamColor": "#2980b9",
+            "pic": "jackieRobinson.jpg",
+            "name": "Jackie Robinson"
+        },
+        {
+            "no": 45,
+            "teamColor": "#c0392b",
+            "pic": "bobGibson.jpg",
+            "name": "Bob Gibson"
+        },
+        {
+            "no": 85,
+            "teamColor": "#c0392b",
+            "pic": "jackBuck.jpg",
+            "name": "Jack Buck"
+        }
+    ]
+}
