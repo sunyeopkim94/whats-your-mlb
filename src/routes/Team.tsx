@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import { Link, Route, Switch, useLocation, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -18,7 +18,8 @@ const Logo = styled.img`
 `;
 
 const Keyword = styled.p`
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: 300;
 `;
 
 const Name = styled.h1`
@@ -28,6 +29,7 @@ const Name = styled.h1`
 
 const SectionContainer = styled.div`
     margin: 5px 0;
+    position: relative;
 `
 
 const SectionTitle = styled.h5`
@@ -36,12 +38,13 @@ const SectionTitle = styled.h5`
     width: calc(50% - 5px);
 `;
 
-const History = styled.p`
+const History = styled.div`
     font-size: 16px;
     line-height: 20px;
     padding: 25px;
     border-radius: 10px;
     background-color: ${(props) => props.theme.cardBgColor};
+
 `;
 
 const ArticleContainer = styled.div`
@@ -49,15 +52,13 @@ const ArticleContainer = styled.div`
     justify-content: space-between;
 `;
 
-const Since = styled.h5`
+const Since = styled(History)`
     width: calc(50% - 5px);
-    background-color: ${(props) => props.theme.cardBgColor};
-    border-radius: 10px;
     padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 500;
+    font-weight: 400;
 `;
 
 const Hometown = styled.ul`
@@ -65,12 +66,6 @@ const Hometown = styled.ul`
     background-color: ${(props) => props.theme.cardBgColor};
     border-radius: 10px;
     padding: 10px 0;
-    font-weight: 500;
-`;
-
-const FieldContainer = styled.div`
-    margin: 5px 0;
-    position: relative;
 `;
 
 const FieldImg = styled.img`
@@ -79,32 +74,29 @@ const FieldImg = styled.img`
     border-radius: 10px;
 `;
 
-const Field = styled.h5`
+const Field = styled(History)`
     width: 100%;
-    background-color: ${(props) => props.theme.cardBgColor};
-    border-radius: 10px;
     padding: 20px 0;
     margin-bottom: 10px;
 `;
 
-const WorldSeries = styled.ul`
+const WorldSeries = styled(Hometown)`
     width: 100%;
-    background-color: ${(props) => props.theme.cardBgColor};
-    border-radius: 10px;
     padding: 20px 0;
 `;
 
 const NumberContainer = styled.li`
     margin-top: 10px;
+    cursor: pointer;
     &:first-child {
         margin-top: 0;
     }
     h1 {
         width: 80px;
         height: 80px;
+        font-family: "Do Hyeon", sans-serif;
         font-size: 46px;
-        font-weight: 900;
-        color: #000;
+        font-weight: 700;
         line-height: 80px;
         border-radius: 50%;
         background-color: white;
@@ -116,30 +108,40 @@ const NumberContainer = styled.li`
     }
 `;
 
+const PnImg = styled.img`
+    width: 460px;
+    border-radius: 10px;
+    margin-top: 10px;
+`;
+
 const Btn = styled.button`
     width: 60px;
     height: 60px;
     background-color: ${(props) => props.theme.cardBgColor};
     color: #0be881;
     font-size: 18px;
-    font-weight: 900;
-    border: 1px solid #0be881;
+    font-weight: 700;
+    border: 2px solid #2bcbba;
     border-radius: 50%;
     position: fixed;
-    z-index: 4;
+    z-index: 2;
     left: 20px;
     top: 20px;
+`;
+
+const Loading = styled.img`
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
 `;
 
 interface Params {
     teamId: string;
 }
 
-interface RouteState {
-    name: string;
-}
-
 interface Hometown {
+    no: number;
     city: string;
 }
 
@@ -172,76 +174,95 @@ interface ITeam {
 function Team(){
     const { teamId } = useParams<Params>();
     const [team, setTeam] = useState<ITeam>();
+    const [isLoading, setIsLoading] = useState(true);
+    const [isNumberIndex, setIsNumberIndex] = useState<number | null>(null);
+    const [isNumberVisible, setIsNumberVisible] = useState(false);
     useEffect(() => {
         (async () => {
             const team =await (await fetch(`./data/${teamId}.json`)).json();
             setTeam(team);
+            setIsLoading(false);
         })();
     },[]);
+    const permanentNumber = (index: number) => {
+        if(isNumberIndex === index) {
+            setIsNumberVisible(false);
+            setIsNumberIndex(null);
+        }
+        else {
+            setIsNumberVisible(true);
+            setIsNumberIndex(index);
+        }
+    }
     return (
-        <Container>
+        <Container key={team?.id}>
             <Helmet>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Sunflower:wght@300&display=swap" />
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" />
-                <title>{team?.id}</title>
+                <title>{team?.name}</title>
+                {<link rel="icon" href={`./img/teams/${team?.logo}`} />}
             </Helmet>
             <Link to="/">
                 <Btn>👈</Btn>
             </Link>
-            <Logo src={`./img/teams/${team?.logo}`} alt={team?.name} />
-            <Keyword>'{team?.keyword}'</Keyword>
-            <Name>{team?.name}</Name>
-            <SectionContainer>
-                <SectionTitle>History</SectionTitle>
-                <History>{team?.history}</History>
-            </SectionContainer>
-            <ArticleContainer style={{marginBottom: 0}}>
-                <SectionTitle>Since</SectionTitle>
-                <SectionTitle>Home Town</SectionTitle>
-            </ArticleContainer>
-            <ArticleContainer>
-                <Since>{team?.since}</Since>
-                <Hometown>
-                    {team?.hometown.map((item) => {
-                        return (
-                            <li key={item.city}>
-                                <span>{item.city}</span>
-                            </li>
-                        )
-                    })}
-                </Hometown>
-            </ArticleContainer>
-            <FieldContainer>
-                <SectionTitle>Home Field</SectionTitle>
-                <Field>{team?.field}</Field>
-                <FieldImg src={`./img/fields/${team?.fieldImg}`} alt={team?.field} />
-            </FieldContainer>
-            <SectionContainer>
-                <SectionTitle>World Series</SectionTitle>
-                <WorldSeries>
-                    {team?.worldseries.map((item) => {
-                        return (
-                            <>
-                                {item.year ? <li key={item.no}>
-                                <span>{item.year}</span>
-                                </li> : <span>Nothing Happened...</span>}
-                            </>
-                        )
-                    })}
-                </WorldSeries>
-            </SectionContainer>
-            <SectionContainer>
-                <SectionTitle>Permanent Number</SectionTitle>
-                <WorldSeries>
-                    {team?.permanentNumber.map((item) => {
-                        return (
-                            <NumberContainer key={item.no}>
-                                <h1 style={{color: item.teamColor}}>{item.no}</h1>
-                                <p>{item.name}</p>
-                            </NumberContainer>
-                        )
-                    })}
-                </WorldSeries>
-            </SectionContainer>
+            {isLoading ? <Loading src="./img/loading.gif" /> : 
+                <>
+                    <Logo src={`./img/teams/${team?.logo}`} alt={team?.name} />
+                    <Keyword>'{team?.keyword}'</Keyword>
+                    <Name>{team?.name}</Name>
+                    <SectionContainer>
+                        <SectionTitle>History</SectionTitle>
+                        <History>{team?.history}</History>
+                    </SectionContainer>
+                    <ArticleContainer style={{marginBottom: 0}}>
+                        <SectionTitle>Since</SectionTitle>
+                        <SectionTitle>Home Town</SectionTitle>
+                    </ArticleContainer>
+                    <ArticleContainer>
+                        <Since>{team?.since}</Since>
+                        <Hometown>
+                            {team?.hometown.map((item) => {
+                                return (
+                                    <li key={item.no}>
+                                        <span>{item.city}</span>
+                                    </li>
+                                )
+                            })}
+                        </Hometown>
+                    </ArticleContainer>
+                    <SectionContainer>
+                        <SectionTitle>Home Field</SectionTitle>
+                        <Field>{team?.field}</Field>
+                        <FieldImg src={`./img/fields/${team?.fieldImg}`} alt={team?.field} />
+                    </SectionContainer>
+                    <SectionContainer>
+                        <SectionTitle>World Series</SectionTitle>
+                        <WorldSeries>
+                            {team?.worldseries.map((item) => {
+                                return (
+                                    <li key={item.no}>
+                                        <span>{item.year}</span>
+                                    </li>
+                                )
+                            })}
+                        </WorldSeries>
+                    </SectionContainer>
+                    <SectionContainer>
+                        <SectionTitle>Permanent Number</SectionTitle>
+                        <WorldSeries>
+                            {team?.permanentNumber.map((item, index) => {
+                                return (
+                                    <NumberContainer key={item.name} onClick={() => permanentNumber(index)}>
+                                        <h1 style={{color: item.teamColor}}>{item.no}</h1>
+                                        <p>{item.name}</p>
+                                        {isNumberIndex === index && isNumberVisible && <PnImg src={`./img/numbers/${item.pic}`}/>}
+                                    </NumberContainer>
+                                )
+                            })}
+                        </WorldSeries>
+                    </SectionContainer>
+                </>
+            }
         </Container>
     )
 }

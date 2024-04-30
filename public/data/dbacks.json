@@ -3,7 +3,7 @@
     "name": "Arizona Diamondbacks",
     "since": 1998,
     "hometown": [
-        {"city": "Phoenix"}
+        {"no": 1, "city": "Phoenix"}
     ],
     "field": "Chase Field",
     "fieldImg": "chaseField.png",

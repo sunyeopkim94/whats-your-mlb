@@ -3,7 +3,7 @@
     "name": "St. Louis Cardinals",
     "since": 1882,
     "hometown": [
-        {"city": "St. Louis"}
+        {"no": 1, "city": "St. Louis"}
     ],
     "field": "Busch Stadium",
     "fieldImg": "buschStadium.png",

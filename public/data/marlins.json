@@ -3,7 +3,7 @@
     "name": "Miami Marlins",
     "since": 1993,
     "hometown": [
-        {"city": "Miami"}
+        {"no": 1, "city": "Miami"}
     ],
     "field": "loanDepot Park",
     "fieldImg": "ioanDepotPark.jpg",
@@ -12,7 +12,7 @@
         {"no": 2, "year": 2003}
     ],
     "logo": "marlins.svg",
-    "keyword": "탱킹의 원조",
+    "keyword": "청새치",
     "history": "메이저리그에서 비교적 짧은 역사를 지닌 마이애미 말린스는 그럼에도 두번의 월드시리즈 우승을 가진 팀이다. 말린스라는 이름은 초대 구단주 웨인 후이젠가가 낚시광이었던 데서 유래했다. 대대로 팀을 운영하는 방식이 선수단 보강을 통한 윈나우에서 파이어세일을 통한 탱킹으로 다시 유망주확보 때가되면 다시 윈나우에 도전하는 방식이다.",
     "permanentNumber": [
         {

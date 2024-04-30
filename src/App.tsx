@@ -2,9 +2,11 @@ import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 import Router from "./router";
 import { darkTheme, lightTheme } from "./theme";
 import { useState } from "react";
+import { useRecoilValue } from "recoil";
+import { isDarkAtom } from "./atoms";
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Sunflower:wght@300&display=swap');
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -36,9 +38,17 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     line-height: 1;
-    font-family: "Do Hyeon", sans-serif;
-    background-color:${(props) => props.theme.bgColor};
-    color:${(props) => props.theme.textColor};
+    font-family: "Sunflower", sans-serif;
+    background-color: ${(props) => props.theme.bgColor};
+    color: ${(props) => props.theme.textColor};
+    &::-webkit-scrollbar {
+      width: 10px;
+      background-color: ${(props) => props.theme.bgColor};
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: ${(props) => props.theme.cardBgColor};
+    }
   }
   menu, ol, ul {
     list-style: none;
@@ -69,16 +79,16 @@ const Footer = styled.footer`
 `;
 
 function App() {
-  const [isDark, setIsDark] = useState(false);
-  const toggleTheme = () => setIsDark((current) => !current);
+  const isDark = useRecoilValue(isDarkAtom);
+  const date = new Date();
   return (
     <>
       <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
         <GlobalStyle />
-        <Router toggleTheme={toggleTheme} isDark={isDark} />
+        <Router />
       </ThemeProvider>
       <Footer>
-        © 2024 MLB Advanced Media, LP. All rights reserved.
+        © {date.getFullYear()} MLB Advanced Media, LP. All rights reserved.
       </Footer>
     </>
   );

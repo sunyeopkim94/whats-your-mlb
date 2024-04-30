@@ -3,7 +3,7 @@
     "name": "Houston Astros",
     "since": 1962,
     "hometown": [
-        {"city": "Houston"}
+        {"no": 1, "city": "Houston"}
     ],
     "field": "Minute Maid Park",
     "fieldImg": "minuteMaidPark.jpg",
@@ -12,7 +12,7 @@
         {"no": 2, "year": 2022}
     ],
     "logo": "astros.svg",
-    "keyword": "드디어 우승! 그런데 휴지통은 왜 두드리는거니?...",
+    "keyword": "우주인",
     "history": "구단의 연고지 텍사스 주는 오직 하나의 별이라는 상징 역시 유명하다. 그래서 애스트로'스' (별'들') 이지만 팀 로고와 모자에는 단 하나의 별만 존재하고 있다. 2010년대 중반부터 도약기를 거쳐 2010년대 후반과 2020년대 초반에는 리그에서 손꼽히는 최정상팀으로 자리 잡았다.",
     "permanentNumber": [
         {

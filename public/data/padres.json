@@ -3,13 +3,13 @@
     "name": "San Diego Padres",
     "since": 1969,
     "hometown": [
-        {"city": "San Diego"}
+        {"no": 1, "city": "San Diego"}
     ],
     "field": "Petco Park",
     "fieldImg": "petcoPark.png",
     "worldseries": [],
     "logo": "padres.svg",
-    "keyword": "김하성의 팀",
+    "keyword": "수도승",
     "history": "1769년 스페인 국왕 카를로스 3세가 샌디에이고에 보낸 군대와 가톨릭 교회의 프란치스코회 성직자들에 의하여 샌프란시스코에서 샌디에이고에 이르기까지 세워진 21개의 가톨릭 수도원이 캘리포니아에 처음으로 세워진 역사에서 유래되었다고 한다. 이 때문인지 구단의 마스코트도 정수리를 삭발한 가톨릭 신부이다.",
     "permanentNumber": [
         {

@@ -3,11 +3,10 @@ import Teams from "./routes/Teams";
 import Team from "./routes/Team";
 
 interface IRouterProps {
-    toggleTheme: () => void;
-    isDark: boolean;
+
 }
 
-function Router({toggleTheme, isDark}:IRouterProps){
+function Router({}:IRouterProps){
     return (
         <BrowserRouter>
             <Switch>
@@ -15,7 +14,7 @@ function Router({toggleTheme, isDark}:IRouterProps){
                     <Team />
                 </Route>
                 <Route path="/">
-                    <Teams toggleTheme={toggleTheme} isDark={isDark} />
+                    <Teams />
                 </Route>
             </Switch>
         </BrowserRouter>

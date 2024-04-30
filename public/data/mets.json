@@ -3,7 +3,7 @@
     "name": "New York Mets",
     "since": 1962,
     "hometown": [
-        {"city": "New York"}
+        {"no": 1, "city": "New York"}
     ],
     "field": "Citi Field",
     "fieldImg": "citiField.jpg",
@@ -12,7 +12,7 @@
         {"no": 2, "year": 1986}
     ],
     "logo": "mets.svg",
-    "keyword": "하필 같은 지역 연고팀이...",
+    "keyword": "메트로폴리탄",
     "history": "팀 전체 역사는 그리 길지도 않고 강팀이었던 적도 드물었으나, '어메이징 메츠'라는 별명이 붙었을 만큼 포스트시즌에 강했었던 팀이었다. 하지만 그 별명이 요즘 보여주고 있는 엉망의 경기력에도 이중적인 의미로 사용되는 중이다.",
     "permanentNumber": [
         {

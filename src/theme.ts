@@ -3,7 +3,7 @@ import { DefaultTheme } from "styled-components/dist/types";
 export const darkTheme:DefaultTheme = {
     bgColor: "#111",
     textColor: "#ffffff",
-    cardBgColor: "#222"
+    cardBgColor: "#333"
 }
 
 export const lightTheme:DefaultTheme = {

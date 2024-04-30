@@ -3,7 +3,7 @@
     "name": "Los Angeles Angels",
     "since": 1961,
     "hometown": [
-        {"city": "Anaheim"}
+        {"no": 1, "city": "Anaheim"}
     ],
     "field": "Angel Stadium of Anaheim",
     "fieldImg": "angelStadium.png",
@@ -11,7 +11,7 @@
         {"no": 1, "year": 2002}
     ],
     "logo": "angels.svg",
-    "keyword": "천사네",
+    "keyword": "천사",
     "history": "팀명은 대도시 로스앤젤레스의 이름에서 유래했다. 현지에서의 별명은 '헤일로스(The Halos)'이며, 국내 팬들은 '천사네'라고 부른다. 여담으로 '엔젤'은 한국인들에게 친숙한 영단어인데 엔젤스가 아닌 에인절스로 한국 내 명칭이 굳어지게 되었다는 것이 특이한 부분.",
     "permanentNumber": [
         {

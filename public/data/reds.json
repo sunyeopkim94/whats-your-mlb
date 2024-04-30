@@ -3,7 +3,7 @@
     "name": "Cincinnati Reds",
     "since": 1882,
     "hometown": [
-        {"city": "Cincinnati"}
+        {"no": 1, "city": "Cincinnati"}
     ],
     "field": "Great American Ball Park",
     "fieldImg": "greatAmericanBallPark.png",
@@ -15,7 +15,7 @@
         {"no": 5, "year": 1990}
     ],
     "logo": "reds.svg",
-    "keyword": "돈많다고 우승하나?",
+    "keyword": "붉은 스타킹",
     "history": "구단주의 재산이 메이저리그 30개 구단주들 중 꼴찌이고 광역권의 인구도 두 번째로 적은 스몰마켓이다. 그러나 5번의 월드시리즈 우승을 비롯해 빅 레드 머신으로 대표되는 1970년대의 전성기가 있어, 스몰마켓치고는 강팀의 이미지를 가졌던 구단이기도 했다.",
     "permanentNumber": [
         {

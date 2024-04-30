@@ -3,9 +3,9 @@
     "name": "Baltimore Orioles",
     "since": 1894,
     "hometown": [
-        {"city": "Milwaukee"},
-        {"city": "St. Louis"},
-        {"city": "Baltimore"}
+        {"no": 1, "city": "Milwaukee"},
+        {"no": 2, "city": "St. Louis"},
+        {"no": 3, "city": "Baltimore"}
     ],
     "field": "Oriole Park at Camden Yards",
     "fieldImg": "camdenYards.jpg",

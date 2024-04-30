@@ -3,7 +3,7 @@
     "name": "New York Yankees",
     "since": 1903,
     "hometown": [
-        {"city": "New York"}
+        {"no": 1, "city": "New York"}
     ],
     "field": "Yankee Stadium",
     "fieldImg": "yankeeStadium.jpg",
@@ -37,7 +37,7 @@
         {"no": 27, "year": 2009}
     ],
     "logo": "yankees.svg",
-    "keyword": "악의 제국",
+    "keyword": "브롱스 폭격기",
     "history": "팀명인 양키스는 뉴욕에 네덜란드계 이민자가 많은 데서 유래되었다. 월드 시리즈 우승 27회, 아메리칸 리그 우승 40회, 아메리칸 리그 동부지구 우승 20회, MVP 22회 등의 최다 기록 보유팀으로, 우승 횟수 27회는 2위(세인트루이스 카디널스의 11회)와 격차가 상당한 최다 기록이고 미국 4대 스포츠를 통틀어도 최다 기록이다. 성적에 걸맞게 그 인기도 세계구급이며, 악의 제국(The Evil Empire)이라는 별명을 가지고 있을 만큼 투자에도 적극적인 팀이다.",
     "permanentNumber": [
         {
